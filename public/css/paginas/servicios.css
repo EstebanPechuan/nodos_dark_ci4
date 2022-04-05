@@ -1,0 +1,303 @@
+@import url('fuentes/fonts.css');
+@import url('variables.css');
+
+.services {
+    width: 100%;
+    padding: 120px 90px 0;
+}
+
+.services h1 {
+    font-size: 45px;
+    color: var(--clr-scdy);
+}
+
+.services > p {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--clr-4);
+    margin-top: 20px;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    padding: 50px 0;
+    height: fit-content;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    background-color: var(--clr-prmy);
+    top: 13%;
+    bottom: 12%;
+    left: 50%;
+    margin-left: -3px;
+}
+
+
+/* Container around content */
+.timeline-cont {
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+/* The images on the opposite side */
+.timeline-cont-img {
+    max-width: 500px;
+    width: 80%;
+    min-height: 250px;
+    height: 80%;
+    position: absolute;
+    border-radius: 6px;
+    background-size: cover;
+    background-position: center;
+}
+
+.left .timeline-cont-img {
+    right: -100%;
+}
+
+.right .timeline-cont-img {
+    left: -100%;
+}
+
+.timeline-cont:nth-child(1) .timeline-cont-img {
+    background-image: url('https://images.unsplash.com/photo-1542626991-cbc4e32524cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80');
+}
+
+.timeline-cont:nth-child(2) .timeline-cont-img {
+    background-image: url('https://images.unsplash.com/photo-1599658880436-c61792e70672?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+}
+
+.timeline-cont:nth-child(3) .timeline-cont-img {
+    background-image: url('https://images.unsplash.com/photo-1581291518570-03a26006fb21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+}
+
+.timeline-cont:nth-child(4) .timeline-cont-img {
+    background-image: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+}
+
+.timeline-cont:nth-child(5) .timeline-cont-img {
+    background-image: url('https://images.unsplash.com/photo-1518349619113-03114f06ac3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+}
+
+/* The circles on the timeline */
+.timeline-cont .timeline-cont-icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: -23px;
+    border: 2px solid var(--clr-prmy);
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+    background-color: #fff;
+    background-position: center;
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+
+/* Content inside the circles */
+.timeline-cont.timeline-cont:nth-child(1) .timeline-cont-icon {
+    background-image: url('../../img/iconos-servicios/ico1.svg');
+}
+
+.timeline-cont.timeline-cont:nth-child(2) .timeline-cont-icon {
+    background-image: url('../../img/iconos-servicios/ico2.svg');
+}
+
+.timeline-cont.timeline-cont:nth-child(3) .timeline-cont-icon {
+    background-image: url('../../img/iconos-servicios/ico3.svg');
+}
+
+.timeline-cont.timeline-cont:nth-child(4) .timeline-cont-icon {
+    background-image: url('../../img/iconos-servicios/ico4.svg');
+}
+
+.timeline-cont.timeline-cont:nth-child(5) .timeline-cont-icon {
+    background-image: url('../../img/iconos-servicios/ico5.svg');
+}
+
+/* Place the container to the left */
+.left {
+    left: 0;
+    text-align: right;
+    padding: 40px 100px 40px 0;
+}
+
+/* Place the container to the right */
+.right {
+    left: 50%;
+    padding: 40px 0 40px 100px;
+}
+
+/* Fix the circle for containers on the left side */
+.left .timeline-cont-icon {
+    top: 50%;
+    transform: translateY(-30%);
+}
+
+/* Fix the circle for containers on the right side */
+.right .timeline-cont-icon {
+    top: 50%;
+    transform: translateY(-30%);
+    left: -26px;
+}
+
+/* The actual content */
+.content {
+    min-height: 250px;
+    padding: 20px 0;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content h2 {
+    color: var(--clr-5);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    color: #40517cd0;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 768px) {
+    .services {
+        padding-top: 80px;
+    }
+    .services h1 {
+        font-size: 40px;
+        color: var(--clr-scdy);
+    }
+    
+    .services > p {
+        font-size: 20px;
+        font-weight: bold;
+        color: var(--clr-4);
+        margin-top: 10px;
+    }
+    .timeline-cont {
+        padding: 0px;
+    }
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 0;
+    }
+
+    /* Full-width containers */
+    .timeline-cont {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* Make sure that all arrows are pointing leftwards */
+    /* .timeline-cont::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    } */
+
+    /* Make sure all circles are at the same spot */
+    .left .timeline-cont-icon, .right .timeline-cont-icon {
+        left: -25px;
+    }
+    
+    .left::before, .right::before {
+        display: none;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .right {
+        left: 0%;
+    }
+
+
+    .left {
+        text-align: left;
+    }    
+}
+
+@media screen and (max-width: 550px) {
+    .content h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    
+    .content p {
+        color: #40517cd0;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .services {
+        padding: 120px 50px 0;
+    }
+    .timeline-cont {
+        padding-left: 50px;
+    }
+    .content h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .content p {
+        color: #40517cd0;
+        font-size: 14px;
+    }
+}
+
+
+.tecnologias {
+    width: 100%;
+    padding: 50px 40px;
+}
+
+.tecnologias > h2 {
+    color: var(--clr-scdy);
+    font-size: 45px;
+    text-align: right;
+}
+
+.tecnologias > p {
+    color: var(--clr-4);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.cajas-tecnologias {
+    width: 100%;
+    padding: 40px 0 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cajas-tecnologias > * {
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    color: var(--clr-5);
+    font-size: 20px;
+    font-weight: bold;
+    background: #ddd;
+}
+

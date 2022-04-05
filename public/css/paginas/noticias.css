@@ -1,0 +1,71 @@
+@import url('fuentes/fonts.css');
+@import url('variables.css');
+
+.seccion-noticias {
+    width: 100%;
+    padding: 80px 40px;
+}
+
+.seccion-noticias h1 {
+    font-size: 30px;
+    color: var(--clr-prmy);
+    text-align: right;
+}
+
+.seccion-noticias > p {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--clr-4);
+    margin: 10px 0 30px;
+    text-align: right;
+}
+
+
+.seccion-noticias .cards-noticias {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.seccion-noticias .card-noti {
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.seccion-noticias .card-noti:hover {
+    box-shadow: 0 3px 4px #0003;
+}
+
+.seccion-noticias .card-noti .noti-img {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.seccion-noticias .card-noti .noti-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.seccion-noticias .card-noti .noti-info {
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.seccion-noticias .card-noti .noti-info h4 {
+    font-size: 20px;
+    color: #000;
+}
+
+.seccion-noticias .card-noti .noti-info p,
+.seccion-noticias .card-noti .noti-info a {
+    color: var(--clr-5);
+    font-size: 16px;
+}

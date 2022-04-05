@@ -1,0 +1,77 @@
+@import url('fuentes/fonts.css');
+@import url('variables.css');
+
+.seccion-exitos {
+    width: 100%;
+    padding: 80px 40px 0;
+}
+
+.seccion-exitos h1 {
+    font-size: 30px;
+    color: var(--clr-scdy);
+    text-align: center;
+}
+
+.seccion-exitos > p {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--clr-4);
+    margin: 10px 0 30px;
+    text-align: center;
+}
+
+
+.seccion-exitos .casos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.seccion-exitos .cada-trabajo {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.seccion-exitos .cada-trabajo .trabajo-img {
+    width: 100%;
+    height: 380px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.seccion-exitos .cada-trabajo .trabajo-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.seccion-exitos .cada-trabajo h4 {
+    font-size: 20px;
+    color: var(--clr-5);
+}
+
+.seccion-exitos .cada-trabajo p {
+    font-size: 16px;
+    color: var(--clr-4);
+}
+
+.seccion-exitos .cada-trabajo a {
+    font-size: 14px;
+    color: var(--clr-prmy);
+}
+
+.seccion-exitos > a {
+    font-size: 16px;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background: var(--clr-scdy);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+}
