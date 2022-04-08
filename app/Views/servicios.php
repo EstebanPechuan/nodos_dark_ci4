@@ -78,6 +78,14 @@
     </div>
 </section>
 
+<!-- <figure class="circle-1"></figure>
+
+<figure class="circle-2"></figure>
+<figure>
+    <circle class="circle-3"></circle> -->
+<!-- </figure> -->
+<!-- <div class="circle-3"></div>
+<div class="circle-4"></div> -->
 
 <script src=" <?php echo base_url('public/js/wow.min.js') ?> "></script>
 <script>

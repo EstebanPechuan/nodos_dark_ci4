@@ -10,12 +10,13 @@
     font-size: 30px;
     color: var(--clr-scdy);
     text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .seccion-exitos > p {
     font-size: 16px;
     font-weight: bold;
-    color: var(--clr-4);
+    color: var(--clr-6);
     margin: 10px 0 30px;
     text-align: center;
 }
@@ -53,12 +54,12 @@
 
 .seccion-exitos .cada-trabajo h4 {
     font-size: 20px;
-    color: var(--clr-5);
+    color: var(--clr-scdy);
 }
 
 .seccion-exitos .cada-trabajo p {
     font-size: 16px;
-    color: var(--clr-4);
+    color: var(--clr-6);
 }
 
 .seccion-exitos .cada-trabajo a {

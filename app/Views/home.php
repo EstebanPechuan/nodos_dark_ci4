@@ -158,7 +158,7 @@ clientes</h2>
 
 
 <section class="exitos" id="exitos">
-    <h2 class="wow-home-200 fadeInLeft">Casos de éxito</h2>
+    <h2 class="wow-home-200 fadeInLeft">Trabajos Realizados</h2>
     <p class="wow-home-200 fadeInLeft">Te mostramos algunos de los trabajos que hemos desarrollado y han sido un éxito en el mercado</p>
 
     <div class="casos">

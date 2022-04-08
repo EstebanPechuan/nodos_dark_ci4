@@ -9,7 +9,7 @@
         <ul>
             <li><a href="<?= base_url('home') ?>">Home</a></li>
             <li><a href="<?= base_url('servicios') ?>">Servicios</a></li>
-            <li><a href="<?= base_url('exitos') ?>">Casos de éxitos</a></li>
+            <li><a href="<?= base_url('exitos') ?>">Trabajos Realizados</a></li>
             <li><a href="<?= base_url('nuestro_equipo') ?>">Nuestro Equipo</a></li>
             <li><a href="<?= base_url('noticias') ?>">Noticias</a></li>
             <li><a href="<?= base_url('home#contacto') ?>">Contacto</a></li>

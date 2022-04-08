@@ -20,6 +20,10 @@
         <button>CEO</button>
     </div>
 
+    <div onclick="javascript:buttonContador()" id="contador" class="boton-puesto">
+        <button>CONTADOR</button>
+    </div>
+
     <div onclick="javascript:buttonDesMov()" id="dev-mob" class="boton-puesto">
         <button>DEVELOPER MOBILE</button>
     </div>
@@ -61,7 +65,7 @@
 <section class="cards-equipo">
     <div class="card-individual ceo">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/cristian.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/cristian.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Cristian Gonzalez</h3>
@@ -71,7 +75,7 @@
 
     <div class="card-individual ceo">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/seba-a.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/seba-a.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-orange">Sebastián Ávila</h3>
@@ -81,7 +85,7 @@
 
     <div class="card-individual des-mob">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/gonza.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/gonza.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Gonzalo Valdez</h3>
@@ -91,7 +95,7 @@
 
     <div class="card-individual des-mob">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/nuevas/lucas.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/lucas.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-orange">Lucas Casco</h3>
@@ -101,7 +105,7 @@
 
     <div class="card-individual ux-ui">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/nuevas/vale.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/vale.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-orange">Valentina Visciglio</h3>
@@ -164,7 +168,7 @@
 
     <div class="card-individual back">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/fondo-rojo/cinthia.jpg') ?> " alt="" style="transform: rotateY(180deg);">
+            <img src=" <?php echo base_url('public/img/equipo/nuevas/cinthia.jpeg') ?> " alt="" style="transform: rotateY(180deg);">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Cinthia Muñoz</h3>
@@ -172,12 +176,9 @@
         </div>
     </div>
 
-
-    <!-- Falta foto fondo azul! -->
-
     <div class="card-individual back">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/persona4.png') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo/nuevas/emilse.jpg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-orange">Emilse Moreno</h3>
@@ -190,7 +191,7 @@
 
     <div class="card-individual back">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/fondo-rojo/mauri.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo/nuevas/mauri.png') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-orange">Mauricio Flores</h3>
@@ -220,14 +221,10 @@
             <p>Back End</p>
         </div>
     </div>
-
-
-    <!-- Falta foto fondo azul! -->
     
     <div class="card-individual front">
-        <div class="card-ind-img">
-            <img src="." alt=""
-            style="background-image: url(' <?php echo base_url('public/img/equipo/fondo-rojo/joaco.jpeg') ?> '); background-size: cover; background-position: 0 -80px;">
+        <div class="card-ind-img" style="background-image: url(' <?php echo base_url('public/img/equipo/nuevas/joaco.png') ?> '); background-size: cover;">
+            <!-- <img src="." alt="" -->
         </div>
         <div class="card-ind-info">
             <h3 class="clr-orange">Joaquín Quiroga</h3>
@@ -247,6 +244,16 @@
 
     <div class="card-individual front">
         <div class="card-ind-img">
+            <img src=" <?php echo base_url('public/img/equipo/nuevas/fede.jpg') ?> " alt="">
+        </div>
+        <div class="card-ind-info">
+            <h3 class="clr-orange">Federico Rocha</h3>
+            <p>Front End</p>
+        </div>
+    </div>
+
+    <div class="card-individual front">
+        <div class="card-ind-img">
             <img src=" <?php echo base_url('public/img/equipo/esteban.jpg') ?> " alt="">
         </div>
         <div class="card-ind-info">
@@ -260,7 +267,7 @@
     
     <div class="card-individual f-stack">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/fondo-rojo/belen.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo/nuevas/belen.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Belén Calibar</h3>
@@ -338,12 +345,9 @@
         </div>
     </div>
 
-
-    <!-- Falta foto fondo azul! -->
-
     <div class="card-individual pm">
-        <div class="card-ind-img">
-            <img src="." alt="" style="background-image: url(' <?php echo base_url('public/img/equipo/fondo-rojo/mauro.jpg') ?> '); background-size: cover; background-position: 0 -80px;">
+        <div class="card-ind-img" style="background-image: url(' <?php echo base_url('public/img/equipo/nuevas/mauro.png') ?> '); background-size: cover; background-position: 0 -60px;">
+            <!-- <img src="." alt=""> -->
         </div>
         <div class="card-ind-info">
             <h3 class="clr-orange">Mauro Felez</h3>
@@ -386,8 +390,8 @@
 
     <div class="card-individual rrhh">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/pulpo.jpg') ?> " alt="">
-            <!-- <img src=" <?php echo base_url('public/img/equipo/juan-cruz-g.jpg') ?> " alt=""> -->
+            <!-- <img src=" <?php echo base_url('public/img/equipo/pulpo.jpg') ?> " alt=""> -->
+            <img src=" <?php echo base_url('public/img/equipo/juan-cruz-g.jpg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Juan Cruz Gonzalez</h3>

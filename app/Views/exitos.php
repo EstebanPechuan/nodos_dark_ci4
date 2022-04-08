@@ -1,5 +1,5 @@
 <section class="seccion-exitos">
-    <h1>Casos de éxito</h1>
+    <h1>Trabajos realizados</h1>
     <p>Con Nodos Hub hemos formado parte de una gran variedad de proyectos que han sido un éxito en el mercado</p>
 
 
