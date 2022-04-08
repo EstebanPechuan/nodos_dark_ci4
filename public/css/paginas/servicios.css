@@ -262,7 +262,7 @@
     }
     
     .content p {
-        color: #40517cd0;
+        color: var(--clr-6);
         font-size: 14px;
     }
 }
