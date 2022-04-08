@@ -115,7 +115,7 @@
 
     <div class="card-individual ux-ui">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/nuevas/juan-cruz-c.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/juan-cruz-c.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Juan Cruz Carreño</h3>
@@ -125,7 +125,7 @@
 
     <div class="card-individual back">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/andres.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/andres.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-orange">Andrés Gallardo</h3>
@@ -135,7 +135,7 @@
 
     <div class="card-individual back">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/nuevas/damian.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/damian.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Damián Leal</h3>
@@ -145,7 +145,7 @@
 
     <div class="card-individual back">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/nuevas/gise.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/gise.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Gisela Carrizo</h3>
@@ -155,7 +155,7 @@
 
     <div class="card-individual back">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/nuevas/seba-morrone.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/seba-m.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-orange">Sebastián Morrone</h3>
@@ -163,12 +163,9 @@
         </div>
     </div>
 
-
-    <!-- Falta foto fondo azul! -->
-
     <div class="card-individual back">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/nuevas/cinthia.jpeg') ?> " alt="" style="transform: rotateY(180deg);">
+            <img src=" <?php echo base_url('public/img/equipo-resize/cinthia.jpeg') ?> " alt="" style="transform: rotateY(180deg);">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Cinthia Muñoz</h3>
@@ -178,7 +175,7 @@
 
     <div class="card-individual back">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/nuevas/emilse.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/emilse.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-orange">Emilse Moreno</h3>
@@ -186,12 +183,9 @@
         </div>
     </div>
 
-
-    <!-- Falta foto fondo azul! -->
-
     <div class="card-individual back">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/nuevas/mauri.png') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/mauri.pneg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-orange">Mauricio Flores</h3>
@@ -201,7 +195,7 @@
 
     <div class="card-individual back">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/nuevas/vale-m.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/vale-m.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Valeria Mallea</h3>
@@ -223,7 +217,7 @@
     </div>
     
     <div class="card-individual front">
-        <div class="card-ind-img" style="background-image: url(' <?php echo base_url('public/img/equipo/nuevas/joaco.png') ?> '); background-size: cover;">
+        <div class="card-ind-img" style="background-image: url(' <?php echo base_url('public/img/equipo-resize/joaco.jpeg') ?> '); background-size: cover;">
             <!-- <img src="." alt="" -->
         </div>
         <div class="card-ind-info">
@@ -234,7 +228,7 @@
 
     <div class="card-individual front">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/nuevas/facu.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/facu.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-orange">Facundo Gallardo</h3>
@@ -244,7 +238,7 @@
 
     <div class="card-individual front">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/nuevas/fede.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/fede.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-orange">Federico Rocha</h3>
@@ -254,7 +248,7 @@
 
     <div class="card-individual front">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/esteban.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/esteban.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Esteban Pechuan</h3>
@@ -267,7 +261,7 @@
     
     <div class="card-individual f-stack">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/nuevas/belen.jpeg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/belen.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Belén Calibar</h3>
@@ -277,7 +271,7 @@
 
     <div class="card-individual f-stack">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/nuevas/marcos.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/marcos.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-orange">Marcos Caballero</h3>
@@ -287,7 +281,7 @@
 
     <div class="card-individual f-stack">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/jor.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/jor.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Jorgelina Pérez</h3>
@@ -297,7 +291,7 @@
 
     <div class="card-individual f-stack">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/nuevas/santi.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/santi.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-orange">Santiago Grazino</h3>
@@ -307,7 +301,7 @@
 
     <div class="card-individual mkt">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/agus.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/agus.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-orange">Agustina Zapata</h3>
@@ -317,7 +311,7 @@
 
     <div class="card-individual mkt">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/stefi.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/stefi.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Stefania Mendoza</h3>
@@ -327,7 +321,7 @@
 
     <div class="card-individual mkt">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/nuevas/cati.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/cati.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Catalina Buffani</h3>
@@ -337,7 +331,7 @@
 
     <div class="card-individual mkt">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/nuevas/fer.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/fer.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Fernanda Gallardo</h3>
@@ -346,7 +340,7 @@
     </div>
 
     <div class="card-individual pm">
-        <div class="card-ind-img" style="background-image: url(' <?php echo base_url('public/img/equipo/nuevas/mauro.png') ?> '); background-size: cover; background-position: 0 -60px;">
+        <div class="card-ind-img" style="background-image: url(' <?php echo base_url('public/img/equipo-resize/mauro.jpeg') ?> '); background-size: cover; background-position: 0 -60px;">
             <!-- <img src="." alt=""> -->
         </div>
         <div class="card-ind-info">
@@ -357,7 +351,7 @@
 
     <div class="card-individual pm">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/pilar.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/pili.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Pilar Gallardo</h3>
@@ -367,7 +361,7 @@
 
     <div class="card-individual pm">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/marce.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/marce.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Marcelo Cuenca</h3>
@@ -377,7 +371,7 @@
 
     <div class="card-individual pm">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/nuevas/lucre.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/lucre.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-orange">Lucrecia Gallardo</h3>
@@ -391,7 +385,7 @@
     <div class="card-individual rrhh">
         <div class="card-ind-img">
             <!-- <img src=" <?php echo base_url('public/img/equipo/pulpo.jpg') ?> " alt=""> -->
-            <img src=" <?php echo base_url('public/img/equipo/juan-cruz-g.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/juan-cruz-g.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Juan Cruz Gonzalez</h3>
@@ -414,7 +408,7 @@
 
     <div class="card-individual soporte">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/nuevas/mari.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/mari.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-orange">Mariana Pastrán</h3>
