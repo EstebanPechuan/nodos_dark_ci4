@@ -1,9 +1,9 @@
 <section class="hero-equipo">
-    <picture>
+    <!-- <picture> -->
         <!-- <source srcset="../img/office1.jpg" media="(min-width:768px)"> -->
-        <img src=" <?php echo base_url('public/img/nuestro-equipo.png') ?> " alt="">
-    </picture>
-
+        <!-- <img src=" <?php echo base_url('public/img/nuestro-equipo.png') ?> " alt=""> -->
+    <!-- </picture> -->
+    <video src=" http://localhost/nodos_dark_ci4/public/videos/intro-red.mp4 " autoplay="autoplay" muted loop="true" preload="auto" style="width: 110%;"></video>
     <div class="info">
         <h2>Te presentamos a nuestro equipo</h2>
         <p>El que hace realidad tus ideas</p>
@@ -185,7 +185,7 @@
 
     <div class="card-individual back">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo-resize/mauri.pneg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/mauri.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-orange">Mauricio Flores</h3>
