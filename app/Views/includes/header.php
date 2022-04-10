@@ -1,6 +1,6 @@
 <header class="header <?php if($clase_header === 'header-scroll') { echo 'header-scroll'; } else { echo ' ';} ?> ">
     <div class="logo">
-        <a href="home">
+        <a href=" <?php echo base_url('/') ?> ">
             <img src=" <?php echo base_url('public/img/logo2.png') ?> " alt="">
         </a>
     </div>

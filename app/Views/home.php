@@ -5,11 +5,11 @@
     </picture>
 
     <div class="info">
-        <h2 class="wow-home fadeInLeft" data-wow-delay="0.2s">Somos expertos en soluciones tecnologicas</h2>
+        <h2 class="wow-home fadeInLeft" data-wow-delay="0.2s">Somos expertos en soluciones tecnológicas</h2>
         <p class="wow-home fadeInLeft" data-wow-delay="0.2s">Creamos soluciones sostenibles de impacto</p>
         <button class="wow-home fadeInUp" data-wow-delay="0.8s">
             <a href="#contacto">
-                Contactanos
+                Contáctanos
             </a>
         </button>
     </div>
@@ -19,13 +19,13 @@
     <div class="home-servs-left wow-home-200 fadeInLeft">
         <h3>Nuestros servicios</h3>
         <ul>
-            <li>Innovamos en soluciones IT para que tu empresa cree impacto en el mercado.</li>
+            <li>Innovamos en soluciones IT para que tu empresa genere impacto en el mercado.</li>
             <li>Te acompañamos a lo largo de todo el proceso.</li>
             <li>Desafiamos a tus competidores incorporando tecnologías en la cultura de tu empresa</li>
         </ul>
         <a href="servicios">
             Conocé nuestros Servicios
-            <span>🡢</span>
+            <span>&#10140;</span>
         </a>
     </div> 
 
@@ -169,7 +169,7 @@ clientes</h2>
             <h4>Origen San Juan</h4>
             <p>Web gubernamental de incentivo al consumo provincial para productores y emprendedores de la provincia.</p>
             <a href="#c">Conocé más
-                <span>🡢</span>
+                <span>&#10140;</span>
             </a>
         </div>
 
@@ -180,14 +180,14 @@ clientes</h2>
             <h4>Nodos EdTech</h4>
             <p>Gestión académica y comunicación escolar inmediata. Digitalizamos el colegio en la nube. Es la plataforma preferida de la educación privada.</p>
             <a href="#c">Conocé más
-                <span>🡢</span>
+                <span>&#10140;</span>
             </a>
         </div>
     </div>
     
     <a href="exitos" class="wow-home-200 fadeIn">
         Ver más casos de éxito
-        <span>🡢</span>
+        <span>&#10140;</span>
     </a>
 </section>
 
@@ -196,16 +196,19 @@ clientes</h2>
     <h2>Clientes que confiaron en nosotros</h2>
 
     <div class="logos">
-        <img src=" <?php echo base_url('public/img/logo-1.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="0">
-        <img src=" <?php echo base_url('public/img/logo-2.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="0.2s">
-        <img src=" <?php echo base_url('public/img/logo-3.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="0.4s">
-        <img src=" <?php echo base_url('public/img/logo-4.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="0.6s">
-        <img src=" <?php echo base_url('public/img/logo-5.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="0.8s">
-        <img src=" <?php echo base_url('public/img/logo-1.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="1s">
-        <img src=" <?php echo base_url('public/img/logo-2.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="1.2s">
-        <img src=" <?php echo base_url('public/img/logo-3.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="1.4s">
-        <img src=" <?php echo base_url('public/img/logo-4.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="1.6s">
-        <img src=" <?php echo base_url('public/img/logo-5.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="1.8s">
+        <img src=" <?php echo base_url('public/img/confian/min_dhyps.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="0">
+        <img src=" <?php echo base_url('public/img/confian/min_pde.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="0.2">
+        <img src=" <?php echo base_url('public/img/confian/osse.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="0.4s">
+        <img src=" <?php echo base_url('public/img/confian/veladero.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="0.6s">
+        <img src=" <?php echo base_url('public/img/confian/pueblos_del_desierto.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="0.8s">
+        <img src=" <?php echo base_url('public/img/confian/iideca.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="1s">
+        <img src=" <?php echo base_url('public/img/confian/broker_andina.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="1.2s">
+        <!-- <img src=" <?php echo base_url('public/img/confian/senderos.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="1.4s"> -->
+        <img src=" <?php echo base_url('public/img/confian/industrial.svg') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="1.6s">
+        <img src=" <?php echo base_url('public/img/confian/escuela_modelo.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="1.8s">
+        <img src=" <?php echo base_url('public/img/confian/santo_domingo.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="2s">
+        <img src=" <?php echo base_url('public/img/confian/san_francisco.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="2.2s">
+        <img src=" <?php echo base_url('public/img/confian/dante.jpg') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="2.4s">
     </div>
 </section>
 
@@ -217,30 +220,30 @@ clientes</h2>
     <div class="cards-noticias">
         <div class="card-noti wow-home-200 fadeInUp" data-wow-delay="0">
             <div class="noti-img">
-                <img src=" <?php echo base_url('public/img/noti1.jpg') ?> " alt="">
+                <img src="<?php echo base_url('public/img/noticias/educacion1.jpg') ?>" alt="">
             </div>
 
             <div class="noti-info">
-                <h4>Título</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue arcu sapien nisi ipsum elit arcu, amet donec ornare. Eu, aliquam ac condimentum imperdiet.</p>
-                <a href="noticias/plantilla-noticias">
+                <h4>Nodos Educación</h4>
+                <p>La plataforma desarrollada permite realizar funciones de educación, gestión académica, sistema de cobros, y lo más importante es que es una actividad oficial de las instituciones.</p>
+                <a href="noticias/educacion">
                     Leer más
-                    <span>🡢</span>
+                    <span>&#10140;</span>
                 </a>
             </div>
         </div>
 
         <div class="card-noti wow-home-200 fadeInUp" data-wow-delay="0.2s">
             <div class="noti-img">
-                <img src=" <?php echo base_url('public/img/noti2.jpg') ?> " alt="">
+                <img src="<?php echo base_url('public/img/noticias/red.jpg') ?>" alt="">
             </div>
 
             <div class="noti-info">
-                <h4>Título</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue arcu sapien nisi ipsum elit arcu, amet donec ornare. Eu, aliquam ac condimentum imperdiet.</p>
-                <a href="#c">
+                <h4>Red Federal de Pymes Innovadoras</h4>
+                <p>En el mes de marzo recibimos una noticia que nos hace sentir orgullosos del trabajo realizado por nuestro equipo en Nodos.</p>
+                <a href="noticias/red_federal">
                     Leer más
-                    <span>🡢</span>
+                    <span>&#10140;</span>
                 </a>
             </div>
         </div>
@@ -255,7 +258,7 @@ clientes</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue arcu sapien nisi ipsum elit arcu, amet donec ornare. Eu, aliquam ac condimentum imperdiet.</p>
                 <a href="#c">
                     Leer más
-                    <span>🡢</span>
+                    <span>&#10140;</span>
                 </a>
             </div>
         </div>

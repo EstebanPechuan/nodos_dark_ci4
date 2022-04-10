@@ -4,7 +4,7 @@
 @import url('paginas/servicios.css');
 @import url('paginas/exitos.css');
 @import url('paginas/noticias.css');
-@import url('paginas/plantilla-noticias.css');
+@import url('paginas/plantilla_noticias.css');
 
 *,
 *::before,
@@ -138,10 +138,6 @@ body {
 
 .header-scroll .logo img {
     height: 30px;
-}
-
-.header-scroll .iconos img {
-    filter: none;
 }
 
 .header-scroll .menu ul li:hover {
@@ -359,14 +355,14 @@ body {
 .testimonios .testim {
     width: 100%;
     margin-bottom: 50px;
+    padding: 40px;
+    background: rgba(38, 49, 67, 0.5);
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 30px;
-    background: var(--clr-prmy);
-    border-radius: 20px;
-    padding: 20px;
 }
 
 
@@ -671,27 +667,31 @@ body {
 
 .confian h2 {
     font-size: 30px;
-    color: #fff;
+    color: var(--clr-scdy);
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .confian .logos {
-    width: 100%;
-    margin-top: 20px;
-    display: flex;
-    gap: 20px;
     touch-action: pan-x;
+    height: 60px;
     cursor: grab;
     overflow-y: hidden;
-}
+    overflow-x: scroll;
 
-.confian .logos {
-    scrollbar-width: none;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    gap: 50px;
 }
 
 .confian .logos img {
-    width: 150px;
+    height: 100%;
+    filter: grayscale(1);
+    flex: none;
+    user-select: none;
+    position: relative;
+    z-index: -1;
 }
 
 

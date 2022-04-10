@@ -1,0 +1,226 @@
+@import url('fuentes/fonts.css');
+@import url('variables.css');
+
+.plantilla-noticias {
+    width: 100%;
+    padding-top: 120px;
+    display: flex;
+}
+
+.plantilla-left {
+    width: 100%;
+    padding: 0 70px;
+}
+
+
+.plantilla-left .plant-noti-img {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+}
+
+.plantilla-left .plant-noti-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.plantilla-left .plant-noti-img .plant-noti-titulo {
+    width: 70%;
+    padding: 10px;
+    background: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.plantilla-left .plant-noti-titulo h1 {
+    color: var(--clr-scdy);
+    font-size: 30px;
+    padding: 0 30px;
+}
+
+.info-noticia {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-noticia h2 {
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: var(--clr-scdy);
+}
+
+.info-noticia p {
+    padding: 10px 0;
+    color: #fff;
+}
+
+.info-noticia button {
+    margin: 10px auto;
+}
+
+.info-noticia p:nth-child(1) {
+    font-weight: bold;
+}
+
+
+.plantilla-right {
+    display: none;
+}
+
+.plantilla-right h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.plantilla-right li {
+    padding: 5px;
+    padding-left: 0px;
+}
+.plantilla-right li::marker {
+    color: #fff;
+}
+
+.plantilla-right a {
+    font-size: 14px;
+    color: #fff;
+}
+
+
+.fotos-noticia {
+    width: 100%;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.fotos-noticia .cada-foto-noticia {
+    width: 100%;
+    height: 100%;
+    background: #aaa;
+    cursor: pointer;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.fotos-noticia .cada-foto-noticia img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/* Modal Lightbox - w3school */
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.753);
+}
+
+/* Modal Content */
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 70%;
+    max-width: 1200px;
+    height: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+    display: none;
+    height: 100%;
+}
+
+.mySlides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    background: #0004;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+}

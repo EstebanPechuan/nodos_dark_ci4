@@ -24,6 +24,10 @@
         <button>CONTADOR</button>
     </div>
 
+    <div onclick="javascript:buttonAdministracion()" id="administracion" class="boton-puesto">
+        <button>ADMINISTRACIÓN</button>
+    </div>
+
     <div onclick="javascript:buttonDesMov()" id="dev-mob" class="boton-puesto">
         <button>DEVELOPER MOBILE</button>
     </div>
@@ -83,13 +87,13 @@
         </div>
     </div>
 
-    <div class="card-individual contador">
+    <div class="card-individual administracion">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo/nuevas/pame.jpg') ?> " alt="">
+            <img src=" <?php echo base_url('public/img/equipo-resize/pame.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Pamela Ávila</h3>
-            <p>Contadora</p>
+            <p>Administración</p>
         </div>
     </div>
 
@@ -457,6 +461,7 @@
     const todos = document.querySelector('#todos')
     const ceo = document.querySelector('#ceo')
     const contador = document.querySelector('#contador')
+    const administracion = document.querySelector('#administracion')
     const devMob = document.querySelector('#dev-mob')
     const uxUi = document.querySelector('#ux-ui')
     const back = document.querySelector('#back')
@@ -471,6 +476,7 @@
     const cardTodos = document.querySelectorAll('.card-individual')
     const cardCeo = document.querySelectorAll('.ceo')
     const cardContador = document.querySelectorAll('.contador')
+    const cardAdministracion = document.querySelectorAll('.administracion')
     const cardDevMob = document.querySelectorAll('.des-mob')
     const cardUxUi = document.querySelectorAll('.ux-ui')
     const cardBack = document.querySelectorAll('.back')
@@ -496,6 +502,13 @@
     function buttonContador() {
         addDisplay()
         cardContador.forEach(i => {
+            i.classList.remove('d-none')
+        })
+    }
+
+    function buttonAdministracion() {
+        addDisplay()
+        cardAdministracion.forEach(i => {
             i.classList.remove('d-none')
         })
     }
