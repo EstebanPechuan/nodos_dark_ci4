@@ -66,15 +66,18 @@
         necesites</p>
 
     <div class="cajas-tecnologias">
-        <div class="box1">
-            <h4>TITULO</h4>
-        </div>
-        <div class="box2">
-            <h4>TITULO</h4>
-        </div>
-        <div class="box3">
-            <h4>TITULO</h4>
-        </div>
+    
+        <?php if (!empty($tecnologias)) { 
+            foreach($tecnologias as $tecnologia) { ?>
+
+                <div class="card-tecno">
+                    <img src=" <?php echo base_url('public/img/tecnologias/' . $tecnologia['img_url']) ?> " alt="">
+                    <span> <?php echo $tecnologia['name'] ?> </span>
+                </div>
+                                
+            <?php } ?>
+        <?php } ?>
+        
     </div>
 </section>
 

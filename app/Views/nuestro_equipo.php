@@ -3,7 +3,7 @@
         <!-- <source srcset="../img/office1.jpg" media="(min-width:768px)"> -->
         <!-- <img src=" <?php echo base_url('public/img/nuestro-equipo.png') ?> " alt=""> -->
     <!-- </picture> -->
-    <video src=" http://localhost/nodos_dark_ci4/public/videos/intro-red.mp4 " autoplay="autoplay" muted loop="true" preload="auto" style="width: 110%;"></video>
+    <video src=" http://localhost/nodos_dark_ci4/public/videos/intro-red.mp4 " autoplay="autoplay" muted loop="true" preload="auto"></video>
     <div class="info">
         <h2>Te presentamos a nuestro equipo</h2>
         <p>El que hace realidad tus ideas</p>
@@ -69,7 +69,7 @@
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Cristian Gonzalez</h3>
-            <p>CEO / Co-Founder</p>
+            <p>CEO / Founder</p>
         </div>
     </div>
 
@@ -80,6 +80,16 @@
         <div class="card-ind-info">
             <h3 class="clr-orange">Sebastián Ávila</h3>
             <p>CEO / Co-Founder</p>
+        </div>
+    </div>
+
+    <div class="card-individual contador">
+        <div class="card-ind-img">
+            <img src=" <?php echo base_url('public/img/equipo/nuevas/pame.jpg') ?> " alt="">
+        </div>
+        <div class="card-ind-info">
+            <h3 class="clr-blue">Pamela Ávila</h3>
+            <p>Contadora</p>
         </div>
     </div>
 
@@ -446,6 +456,7 @@
     // Búsqueda de las cards según el botón
     const todos = document.querySelector('#todos')
     const ceo = document.querySelector('#ceo')
+    const contador = document.querySelector('#contador')
     const devMob = document.querySelector('#dev-mob')
     const uxUi = document.querySelector('#ux-ui')
     const back = document.querySelector('#back')
@@ -459,6 +470,7 @@
 
     const cardTodos = document.querySelectorAll('.card-individual')
     const cardCeo = document.querySelectorAll('.ceo')
+    const cardContador = document.querySelectorAll('.contador')
     const cardDevMob = document.querySelectorAll('.des-mob')
     const cardUxUi = document.querySelectorAll('.ux-ui')
     const cardBack = document.querySelectorAll('.back')
@@ -477,6 +489,13 @@
     function buttonCeo() {
         addDisplay()
         cardCeo.forEach(i => {
+            i.classList.remove('d-none')
+        })
+    }
+
+    function buttonContador() {
+        addDisplay()
+        cardContador.forEach(i => {
             i.classList.remove('d-none')
         })
     }

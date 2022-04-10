@@ -209,14 +209,6 @@
         padding-right: 25px;
     }
 
-    /* Make sure that all arrows are pointing leftwards */
-    /* .timeline-cont::before {
-        left: 60px;
-        border: medium solid white;
-        border-width: 10px 10px 10px 0;
-        border-color: transparent white transparent transparent;
-    } */
-
     /* Make sure all circles are at the same spot */
     .left .timeline-cont-icon, .right .timeline-cont-icon {
         left: -25px;
@@ -291,36 +283,30 @@
 
 .cajas-tecnologias {
     width: 100%;
-    padding: 40px 0 10px;
+    margin: 40px 0 10px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
-.cajas-tecnologias > * {
-    width: 100%;
-    height: 500px;
-    padding: 20px;
-    border-radius: 4px;
-    text-align: center;
-    color: var(--clr-5);
-    font-size: 20px;
-    font-weight: bold;
-    background: #ddd;
-    color: var(--clr-6);
+.cajas-tecnologias .card-tecno {
+    position: relative;
 }
 
-.box1 {
-    background-color: #1E2735;
+.cajas-tecnologias .card-tecno:hover span {
+    display: block;
 }
 
-.box2 {
-    background-color: #1E2735B2;
-}
-
-.box3 {
-    background-color: #1E273580;
-
+.cajas-tecnologias .card-tecno span {
+    background: #000;
+    padding: 10px 10px 5px;
+    clip-path: polygon(50% 0%, 60% 10%, 100% 10%, 100% 100%, 0 100%, 0 10%, 40% 10%);
+    color: #fff;
+    transform: translate(-50%, 10px);
+    display: none;
+    position: absolute;
+    left: 50%;
+    z-index: 50;
 }
 
 .circle-1{
