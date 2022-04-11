@@ -71,3 +71,8 @@
         </div>
     </div>
 </section>
+
+<figure class="circle-1"></figure>
+<figure class="circle-2"></figure>
+<figure class="circle-3"></figure>
+<figure class="circle-4"></figure>

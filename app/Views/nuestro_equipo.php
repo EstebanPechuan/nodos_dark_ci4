@@ -3,7 +3,7 @@
         <!-- <source srcset="../img/office1.jpg" media="(min-width:768px)"> -->
         <!-- <img src=" <?php echo base_url('public/img/nuestro-equipo.png') ?> " alt=""> -->
     <!-- </picture> -->
-    <video src=" http://localhost/nodos_dark_ci4/public/videos/intro-red.mp4 " autoplay="autoplay" muted loop="true" preload="auto"></video>
+    <video src="http://localhost/nodos_dark_ci4/public/videos/intro-red.mp4" autoplay="autoplay" muted loop="true" preload="auto"></video>
     <div class="info">
         <h2>Te presentamos a nuestro equipo</h2>
         <p>El que hace realidad tus ideas</p>
@@ -179,7 +179,7 @@
 
     <div class="card-individual back">
         <div class="card-ind-img">
-            <img src=" <?php echo base_url('public/img/equipo-resize/cinthia.jpeg') ?> " alt="" style="transform: rotateY(180deg);">
+            <img src=" <?php echo base_url('public/img/equipo-resize/cinthia.jpeg') ?> " alt="" >
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Cinthia Muñoz</h3>
@@ -218,9 +218,9 @@
     </div>
 
 
-    <!-- Falta foto fondo azul! -->
+    <!-- Falta foto! -->
 
-    <div class="card-individual backend">
+    <!-- <div class="card-individual backend">
         <div class="card-ind-img">
             <img src=" <?php echo base_url('public/img/equipo/persona1.png') ?> " alt="">
         </div>
@@ -228,11 +228,11 @@
             <h3 class="clr-orange">Lucas Aguilera</h3>
             <p>Back End</p>
         </div>
-    </div>
+    </div> -->
     
     <div class="card-individual front">
-        <div class="card-ind-img" style="background-image: url(' <?php echo base_url('public/img/equipo-resize/joaco.jpeg') ?> '); background-size: cover;">
-            <!-- <img src="." alt="" -->
+        <div class="card-ind-img" style="background-size: cover;">
+            <img src="<?php echo base_url('public/img/equipo-resize/joaco.jpeg') ?>" alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-orange">Joaquín Quiroga</h3>
@@ -338,7 +338,7 @@
             <img src=" <?php echo base_url('public/img/equipo-resize/cati.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
-            <h3 class="clr-blue">Catalina Buffani</h3>
+            <h3 class="clr-blue">Catalina Buffagni</h3>
             <p>Marketing</p>
         </div>
     </div>
@@ -354,8 +354,8 @@
     </div>
 
     <div class="card-individual pm">
-        <div class="card-ind-img" style="background-image: url(' <?php echo base_url('public/img/equipo-resize/mauro.jpeg') ?> '); background-size: cover; background-position: 0 -60px;">
-            <!-- <img src="." alt=""> -->
+        <div class="card-ind-img" style="background-size: cover; background-position: 0 -60px;">
+            <img src="<?php echo base_url('public/img/equipo-resize/mauro.jpeg') ?> " alt="">
         </div>
         <div class="card-ind-info">
             <h3 class="clr-orange">Mauro Felez</h3>
@@ -441,6 +441,10 @@
     </div> -->
 </section>
 
+<figure class="circle-1-h"></figure>
+<figure class="circle-2-h"></figure>
+<figure class="circle-3-h"></figure>
+<figure class="circle-4-h"></figure>
 
 <script>
     // Cambio de estilos del los 'boton-puesto'

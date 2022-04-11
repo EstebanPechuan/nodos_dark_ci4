@@ -5,6 +5,7 @@
 @import url('paginas/exitos.css');
 @import url('paginas/noticias.css');
 @import url('paginas/plantilla_noticias.css');
+@import url('circles.css');
 
 *,
 *::before,
@@ -82,9 +83,10 @@ body {
     position: absolute;
     top: 0;
     right: -100%;
-    background: #286ADEEE;
+    background: #1E2735;
     transition: 0.4s;
     z-index: 3000;
+    opacity: 0.97;
 }
 
 .menu ul {

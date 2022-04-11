@@ -3,7 +3,7 @@
     <p>Queremos estar en todo el proceso</p>
     <div class="timeline">
         <div class="timeline-cont left">
-            <div class="timeline-cont-img wow fadeInRight" data-wow-delay="0.2s"></div>
+            <div class="timeline-cont-img wow fadeInRight img-none" data-wow-delay="0.2s"></div>
 
             <div class="content wow fadeInLeft">
                 <h2>Metodologías ágiles</h2>
@@ -14,8 +14,9 @@
             
             <div class="timeline-cont-icon wow enterIcon" data-wow-delay="0s"></div>
         </div>
+        
         <div class="timeline-cont right">
-            <div class="timeline-cont-img wow fadeInLeft" data-wow-delay="0.2s"></div>
+            <div class="timeline-cont-img wow fadeInLeft img-none" data-wow-delay="0.2s"></div>
             
             <div class="content wow fadeInRight">
                 <h2>Relevamiento de datos</h2>
@@ -24,8 +25,9 @@
             
             <div class="timeline-cont-icon wow enterIcon" data-wow-delay="0s"></div>
         </div>
+
         <div class="timeline-cont left">
-            <div class="timeline-cont-img wow fadeInRight" data-wow-delay="0.2s"></div>
+            <div class="timeline-cont-img wow fadeInRight img-none" data-wow-delay="0.2s"></div>
             
             <div class="content wow fadeInLeft">
                 <h2>Diseñamos tu experiencia</h2>
@@ -34,8 +36,9 @@
             
             <div class="timeline-cont-icon wow enterIcon" data-wow-delay="0s"></div>
         </div>
+
         <div class="timeline-cont right">
-            <div class="timeline-cont-img wow fadeInLeft" data-wow-delay="0.2s"></div>
+            <div class="timeline-cont-img wow fadeInLeft img-none" data-wow-delay="0.2s"></div>
             
             <div class="content wow fadeInRight">
                 <h2>Desarrollo Web</h2>
@@ -44,8 +47,32 @@
             
             <div class="timeline-cont-icon wow enterIcon" data-wow-delay="0s"></div>
         </div>
+
         <div class="timeline-cont left">
-            <div class="timeline-cont-img wow fadeInRight" data-wow-delay="0.2s"></div>
+            <div class="timeline-cont-img wow fadeInRight img-none" data-wow-delay="0.2s"></div>
+            
+            <div class="content wow fadeInLeft">
+                <h2>BPM</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta vitae aut atque provident quis hic fugiat illo nisi? Id culpa perferendis nihil excepturi veniam voluptatem unde molestiae amet magni distinctio.
+                </p>
+            </div>
+            
+            <div class="timeline-cont-icon wow enterIcon" data-wow-delay="0s"></div>
+        </div>
+
+        <div class="timeline-cont right">
+            <div class="timeline-cont-img wow fadeInLeft img-none" data-wow-delay="0.2s"></div>
+            
+            <div class="content wow fadeInRight">
+                <h2>DevOps</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione veniam autem labore mollitia officiis voluptatem non in perspiciatis, temporibus animi totam, quos tenetur consequatur velit quis recusandae a. Reiciendis, atque.</p>
+            </div>
+            
+            <div class="timeline-cont-icon wow enterIcon" data-wow-delay="0s"></div>
+        </div>
+
+        <div class="timeline-cont left">
+            <div class="timeline-cont-img wow fadeInRight img-none" data-wow-delay="0.2s"></div>
             
             <div class="content wow fadeInLeft">
                 <h2>Testeamos lo realizado</h2>
@@ -81,14 +108,10 @@
     </div>
 </section>
 
-<!-- <figure class="circle-1"></figure>
-
+<figure class="circle-1"></figure>
 <figure class="circle-2"></figure>
-<figure>
-    <circle class="circle-3"></circle> -->
-<!-- </figure> -->
-<!-- <div class="circle-3"></div>
-<div class="circle-4"></div> -->
+<figure class="circle-3"></figure>
+<figure class="circle-4"></figure>
 
 <script src=" <?php echo base_url('public/js/wow.min.js') ?> "></script>
 <script>

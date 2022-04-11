@@ -312,6 +312,13 @@ clientes</h2>
     </div>
 </section>
 
+<figure class="circle-1-h"></figure>
+<figure class="circle-2-h"></figure>
+<figure class="circle-5"></figure>
+<figure class="circle-6"></figure>
+<figure class="circle-7"></figure>
+<figure class="circle-8"></figure>
+<figure class="circle-9"></figure>
 
 <!-- Animaciones de entrada -->
 <script src=" <?php echo base_url('public/js/wow.min.js') ?> "></script>

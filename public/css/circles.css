@@ -1,0 +1,227 @@
+/* Circles */
+
+.circle-1{
+    z-index: -1;
+    position: absolute;
+    width: 954px;
+    height: 954px;
+    left: -240px;
+    top: -340px;
+    border-radius: 50%;
+    background: linear-gradient(216.5deg, rgba(255, 255, 255, 0) 12.17%, rgba(182, 187, 197, 0.8) 85.82%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(50deg);
+}
+
+.circle-2 {
+    z-index: -1;
+    position: absolute;
+    width: 604.94px;
+    height: 604.94px;
+    left: -197.4px;
+    top: 300px;
+    border-radius: 50%;
+    background: linear-gradient(216.5deg, rgba(255, 255, 255, 0) 12.17%, rgba(53, 60, 72, 0.3) 85.82%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(-92.99deg)
+}
+
+.circle-3 {
+    z-index: -1;
+    position: absolute;
+    width: 954px;
+    height: 954px;
+    left: 590px;
+    top: 920px;
+    border-radius: 50%;
+    background: linear-gradient(216.5deg, rgba(255, 255, 255, 0) 12.17%, rgba(176, 184, 195, 0.35) 85.82%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(60deg);
+}
+
+.circle-4 {
+    z-index: -1;
+    position: absolute;
+    width: 604.94px;
+    height: 604.94px;
+    left: 950px;
+    top: 1490px;
+    border-radius: 50%;
+    background: linear-gradient(216.5deg, rgba(255, 255, 255, 0) 12.17%, rgba(53, 60, 72, 0.65) 85.82%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(29.45deg);
+}
+
+.circle-5 {
+    z-index: -1;
+    position: absolute;
+    width: 378.31px;
+    height: 378.31px;
+    left: 1250px;
+    top: 2600px;
+    border-radius: 50%;
+    background: linear-gradient(216.5deg, rgba(255, 255, 255, 0) 12.17%, rgba(53, 60, 72, 0.35) 85.82%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(56.68deg);
+}
+
+.circle-6 {
+    z-index: -1;
+    position: absolute;
+    width: 468.95px;
+    height: 468.95px;
+    left: -200.23px;
+    top: 3706.29px;
+    border-radius: 50%;
+    background: linear-gradient(216.5deg, rgba(255, 255, 255, 0) 12.17%, rgba(168, 171, 177, 0.2) 85.82%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(90.32deg);
+}
+
+.circle-7 {
+    z-index: -1;
+    position: absolute;
+    width: 673.28px;
+    height: 673.28px;
+    left: -370.93px;
+    top: 3900px;
+    border-radius: 50%;
+    background: linear-gradient(216.5deg, rgba(255, 255, 255, 0) 12.17%, rgba(190, 198, 210, 0.35) 85.82%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(50.45deg);
+}
+
+.circle-8 {
+    z-index: -1;
+    position: absolute;
+    width: 604.94px;
+    height: 604.94px;
+    left: 1000.47px;
+    top: 4170px;
+    border-radius: 50%;
+    background: linear-gradient(216.5deg, rgba(255, 255, 255, 0) 12.17%, rgba(178, 183, 192, 0.65) 85.82%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(29.45deg);
+}
+
+.circle-9 {
+    z-index: -1;
+    position: absolute;
+    width: 954px;
+    height: 954px;
+    left: 790.61px;
+    top: 4561px;
+    border-radius: 50%;
+    background: linear-gradient(216.5deg, rgba(255, 255, 255, 0) 12.17%, rgba(131, 138, 149, 0.35) 85.82%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(17.45deg);
+}
+
+/* Con h estan adaptados a las page con hero*/
+
+.circle-1-h {
+    z-index: -1;
+    position: absolute;
+    width: 954px;
+    height: 954px;
+    left: -240px;
+    top: 340px;
+    border-radius: 50%;
+    background: linear-gradient(216.5deg, rgba(255, 255, 255, 0) 12.17%, rgba(182, 187, 197, 0.8) 85.82%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(50deg);
+}
+
+
+.circle-2-h {
+    z-index: -1;
+    position: absolute;
+    width: 604.94px;
+    height: 604.94px;
+    left: -197.4px;
+    top: 1000px;
+    border-radius: 50%;
+    background: linear-gradient(216.5deg, rgba(255, 255, 255, 0) 12.17%, rgba(53, 60, 72, 0.3) 85.82%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(-92.99deg)
+}
+
+.circle-3-h {
+    z-index: -1;
+    position: absolute;
+    width: 954px;
+    height: 954px;
+    left: 590px;
+    top: 1500px;
+    border-radius: 50%;
+    background: linear-gradient(216.5deg, rgba(255, 255, 255, 0) 12.17%, rgba(176, 184, 195, 0.35) 85.82%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(60deg);
+}
+
+.circle-4-h {
+    z-index: -1;
+    position: absolute;
+    width: 604.94px;
+    height: 604.94px;
+    left: 950px;
+    top: 2100px;
+    border-radius: 50%;
+    background: linear-gradient(216.5deg, rgba(255, 255, 255, 0) 12.17%, rgba(53, 60, 72, 0.65) 85.82%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(29.45deg);
+}
+
+@media screen and (max-width: 990px) {
+    .circle-1 {
+        display: none;
+    }
+
+    .circle-2{
+        display: none;
+    }
+
+    .circle-3 {
+        display: none;
+    }
+
+    .circle-4 {
+        display: none;
+    }
+
+    .circle-5 {
+        display: none;
+    }
+
+    .circle-6 {
+        display: none;
+    }
+
+    .circle-7 {
+        display: none;
+    }
+
+    .circle-8 {
+        display: none;
+    }
+
+    .circle-9 {
+        display: none;
+    }
+
+    .circle-1-h {
+        display: none;
+    }
+
+    .circle-2-h {
+        display: none;
+    }
+
+    .circle-3-h {
+        display: none;
+    }
+
+    .circle-4-h {
+        display: none;
+    }
+}
