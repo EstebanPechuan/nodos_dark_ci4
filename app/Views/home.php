@@ -203,12 +203,14 @@ clientes</h2>
         <img src=" <?php echo base_url('public/img/confian/pueblos_del_desierto.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="0.8s">
         <img src=" <?php echo base_url('public/img/confian/iideca.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="1s">
         <img src=" <?php echo base_url('public/img/confian/broker_andina.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="1.2s">
-        <!-- <img src=" <?php echo base_url('public/img/confian/senderos.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="1.4s"> -->
+        <img src=" <?php echo base_url('public/img/confian/logo_sendero_salud.jpg') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="1.4s">
         <img src=" <?php echo base_url('public/img/confian/industrial.svg') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="1.6s">
         <img src=" <?php echo base_url('public/img/confian/escuela_modelo.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="1.8s">
         <img src=" <?php echo base_url('public/img/confian/santo_domingo.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="2s">
         <img src=" <?php echo base_url('public/img/confian/san_francisco.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="2.2s">
         <img src=" <?php echo base_url('public/img/confian/dante.jpg') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="2.4s">
+        <img src=" <?php echo base_url('public/img/confian/santa_rosa_de_lima.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="2.6s">
+        <img src=" <?php echo base_url('public/img/confian/maria_auxiliadora.png') ?> " alt="" class="wow-home-200 fadeInRight" data-wow-delay="2.8s">
     </div>
 </section>
 
