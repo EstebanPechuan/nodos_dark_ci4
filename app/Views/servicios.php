@@ -89,8 +89,7 @@
 
 <section class="tecnologias">
     <h2>Tecnologías</h2>
-    <p>Tenemos un equipo especializado en una gran variedad de tecnologías para llevar a cabo el proyecto que
-        necesites</p>
+    <p>Tenemos un equipo especializado en una gran variedad de tecnologías para llevar a cabo el proyecto que necesites</p>
 
     <div class="cajas-tecnologias">
     
