@@ -10,6 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     transition: 0.5s;
 }
 
@@ -17,6 +18,11 @@
     opacity: 0;
     z-index: -1;
 }
+
+.loading img {
+    max-width: 250px;
+}
+
 .lds-ellipsis {
     display: inline-block;
     position: relative;

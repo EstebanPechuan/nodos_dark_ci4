@@ -33,6 +33,8 @@
 <body>
 
     <div class="loading">
+        <img src=" <?php echo base_url('public/img/logo2.png') ?> " alt="">
+        
         <div class="lds-ellipsis">
             <div></div><div></div><div></div>
         </div>
