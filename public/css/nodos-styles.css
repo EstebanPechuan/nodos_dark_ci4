@@ -6,6 +6,7 @@
 @import url('paginas/noticias.css');
 @import url('paginas/plantilla_noticias.css');
 @import url('circles.css');
+@import url('loading.css');
 
 *,
 *::before,

@@ -31,6 +31,12 @@
     <link rel="stylesheet" href=" <?php echo base_url('public/css/animate.css') ?> ">
 </head>
 <body>
+
+    <div class="loading">
+        <div class="lds-ellipsis">
+            <div></div><div></div><div></div>
+        </div>
+    </div>
     
     <?php
         echo view('includes/header.php');
@@ -68,6 +74,15 @@
     <!-- BoxIcons -->
     <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
     <script src=" <?php echo base_url('public/js/main.js') ?> "></script>
+    
+    <!-- Loading -->
+    <script>
+        const loading = document.querySelector('.loading')
+
+        window.onload = function() {
+            loading.classList.add('loading-none')
+        }
+    </script>
     
 </body>
 </html>
