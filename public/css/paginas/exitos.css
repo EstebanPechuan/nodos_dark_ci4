@@ -50,6 +50,11 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: 0.4s;
+}
+
+.seccion-exitos .cada-trabajo .trabajo-img:hover img {
+    transform: scale(1.06);
 }
 
 .seccion-exitos .cada-trabajo h4 {
