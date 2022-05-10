@@ -317,6 +317,32 @@
 <figure class="circle-5"></figure>
 <figure class="circle-6"></figure>
 <figure class="circle-7"></figure>
+<figure class="circle-8"></figure>
+<figure class="circle-9"></figure>
+
+<!-- Animaciones de entrada -->
+<script src=" <?php echo base_url('public/js/wow.min.js') ?> "></script>
+<script>
+    wow2 = new WOW({
+        boxClass:     'wow-home', // default
+        animateClass: 'animated', // default
+        offset:       0,          // default
+        mobile:       true,       // default
+        live:         true        // default
+    })
+    wow2.init();
+</script>
+
+<script>
+    wow3 = new WOW({
+        boxClass:     'wow-home-200', // default
+        animateClass: 'animated', // default
+        offset:       200,          // default
+        mobile:       true,       // default
+        live:         true        // default
+    })
+    wow3.init();
+</script>
 
 
 <!-- Animación Contador - Experiencia -->

@@ -64,7 +64,7 @@ class Servicios extends BaseController {
             ],
             [
                 'name' => 'CodeIgniter',
-                'img_url' => 'codeignater.svg'
+                'img_url' => 'codeigniter.svg'
             ],
             [
                 'name' => 'Laravel',

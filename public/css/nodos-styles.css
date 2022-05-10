@@ -55,10 +55,6 @@ body {
   align-items: center;
 }
 
-.logo {
-  /* margin-right: 50px; */
-}
-
 .logo img {
   height: 40px;
   transition: 0.4s;
@@ -88,16 +84,16 @@ body {
 }
 
 .menu {
-  width: 60%;
-  height: 100vh;
-  padding: 90px 0;
-  position: absolute;
-  top: 0;
-  right: -100%;
-  background: #1e2735;
-  transition: 0.4s;
-  z-index: 3000;
-  opacity: 0.97;
+    width: 60%;
+    height: 100vh;
+    padding: 90px 0;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    background: #1e2735;
+    transition: 0.4s;
+    z-index: 3000;
+    opacity: 0.97;
 }
 
 .menu ul {
@@ -928,22 +924,6 @@ body {
   margin-top: 10px;
   cursor: pointer;
 }
-
-/* .contacto .input-group input:focus + label,
-.contacto .input-group textarea:focus + label {
-    top: -5px;
-    background: #fff;
-    padding: 0 10px;
-    font-size: 16px;
-}
-
-.contacto .input-group input:not(:placeholder-shown) + label,
-.contacto .input-group textarea:not(:placeholder-shown) + label {
-    top: -5px;
-    background: #fff;
-    padding: 0 10px;
-    font-size: 16px;
-} */
 
 .contacto .contact-img {
   width: 100% !important;
