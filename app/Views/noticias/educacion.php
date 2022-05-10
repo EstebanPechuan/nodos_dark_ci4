@@ -5,7 +5,7 @@
                 <img src=" <?php echo base_url($images[0]['url']) ?> " alt="">
                 <div class="plant-noti-titulo">
                     <h1>En Nodos creamos una plataforma para instituciones educativas</h1>
-                    <p>Fecha / Hora</p>
+                    <!-- <p>Fecha / Hora</p> -->
                 </div>
             </div>
 
@@ -66,28 +66,8 @@
                 </div>
             </div>
         </div>
-
-    </div>
-
-    <div class="plantilla-right">
-        <h4>Noticias recientes</h4>
-        <ul>
-            <li>
-                <a href="#c">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
-            </li>
-            <li>
-                <a href="#c">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
-            </li>
-            <li>
-                <a href="#c">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
-            </li>
-            <li>
-                <a href="#c">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
-            </li>
-        </ul>
     </div>
 </section>
-
 
 <!-- Modal Lightbox - w3school -->
 <script>

@@ -46,13 +46,18 @@
 
         <div class="card-noti">
             <div class="noti-img">
-                <img src=" <?php echo base_url('public/img/noti3.jpg') ?> " alt="">
+                <img src="
+                    <?php if (!empty($images)) {
+                        echo base_url($images[2]);                 
+                     } else {
+                        echo base_url('public/img/noti2.jpg');
+                     } ?>" alt="">
             </div>
 
             <div class="noti-info">
-                <h4>Noticia 3</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue arcu sapien nisi ipsum elit arcu, amet donec ornare. Eu, aliquam ac condimentum imperdiet.</p>
-                <a href="#c">
+                <h4>Concurso de OSSE “Así cuidamos el agua potable”</h4>
+                <p>Nuestro equipo trabajo para digitalizar los certificados emitidos para los participantes del certamen escolar “Así cuidamos el agua” ya que en el mismo participaron escuelas de toda la provincia.</p>
+                <a href="noticias/osse">
                     Leer más
                     <span>&#10140;</span>
                 </a>

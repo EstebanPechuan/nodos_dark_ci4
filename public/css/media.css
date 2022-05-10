@@ -25,12 +25,14 @@
     }
     
     .menu {
-        width: auto;
+        width: 100%;
         height: 100%;
         padding: 0;
         position: static;
         background: transparent;
         z-index: 3000;
+        display: flex;
+        align-items: center;
     }
     
     .menu ul {
@@ -62,6 +64,11 @@
     .header-scroll .logo img {
         height: 50px;
     }
+
+    .idiomas {
+        width: fit-content;
+        margin: 0 0 0 auto !important;
+    }
     
 
     .iconos {
@@ -78,13 +85,15 @@
         padding: 100px 60px;
         justify-content: flex-end;
         align-items: flex-end;
+        background: var(--clr-prmy);
     }
 
     .hero-equipo {
         /* padding: 80px 60px; */
         justify-content: center;
         align-items: flex-end;
-    }
+        background: var(--clr-prmy);
+    }   
 
     .hero .info {
         text-align: start;
@@ -119,8 +128,6 @@
         font-size: 20px;
     }
 
-
-
     .home-servs {
         padding: 80px !important;
         justify-content: space-between;
@@ -135,8 +142,17 @@
         flex-direction: column;
     }
 
-    .home-servs-right {
+    .img-servicios-n .home-servs-right {
         width: 50% !important;
+        grid-template-columns: repeat(4, 1fr) !important;
+        grid-auto-rows: 400px !important;
+        gap: 0 !important;
+        column-gap: 10px !important;
+        overflow: hidden;
+    }
+
+    .img-servicios-a .home-servs-right {
+        width: 100% !important;
         grid-template-columns: repeat(4, 1fr) !important;
         grid-auto-rows: 400px !important;
         gap: 0 !important;
@@ -154,28 +170,91 @@
         display: none;
     }
     
-    .home-servs-right .box-img:hover .fondo-azul {
-        display: flex;
-    }
-
     .home-servs-right .box-img .fondo-azul h4 {
         font-size: 30px;
     }
 
-    .home-servs-right:hover .box-img {
-        display: none;
-    }
-    
-    .home-servs-right .box-img:hover {
-        display: block;
-        grid-column: 1/5;
-        grid-row: 1/2;
-    }
-    
-    .home-servs-right .box-img:hover .fondo-azul {
+    /* Animación servicios */
+
+    .box {
+        width: 600px;
+        height: 400px;
         display: flex;
+        overflow: hidden;
+        position: relative;
+        gap: 10px;
+    }
+    
+    .animation {
+        width: calc(600px / 4);
+        height: 100%;
+    }
+    
+    .label {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        transition: 0.6s;
+        z-index: -1;
+        transform: translateX(-650px);
+    }
+    
+    .bg-anim {
+        background: var(--clr-prmy);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
     }
 
+    .bg-img  {
+        opacity: 0.5 !important;
+    }
+
+    .text-anim {
+        padding: 40px;
+    }
+
+    .animation:hover .label {
+        transform: translateX(0);
+    }
+    
+    .animation > img {
+        opacity: 1;
+        transition: 0.6s;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: -2;
+        object-fit: cover;
+    }
+    
+    .box:hover .animation > img {
+        opacity: 1;
+    }
+    
+    .label img {
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: 0.6s;
+    }
+    
+    .label h4{
+        color: white;
+        font-size: 30px;
+    }
+
+    .label p {
+        color: white;
+        font-size: 15px;
+    }
+
+    .animation:hover .label img {
+        opacity: 1;
+    }
 
     footer .primer-box {
         padding: 40px 100px !important;
@@ -190,9 +269,11 @@
     .seccion-noticias .cards-noticias .card-noti {
         width: calc((100% / 3) - 50px) !important;
     }
+
+    .img-servicios-n {
+        display: none;
+    }
 }
-
-
 
 
 @media (min-width: 850px) {
@@ -210,7 +291,6 @@
         font-size: 16px;
     }
 
-    
     .cultura .cultura-texto h2 {
         font-size: 40px;
     }
@@ -219,17 +299,13 @@
         font-size: 18px;
     }
 
-
-
     .equipo h2 {
         font-size: 45px;
     }
     
     .equipo p {
         font-size: 20px;
-    }
-    
-    
+    } 
 
     .exitos,
     .seccion-exitos,
@@ -248,8 +324,6 @@
     .seccion-noticias > p {
         font-size: 20px;
     }
-    
-    
     
     .confian {
         padding: 40px 80px !important;   
@@ -276,7 +350,6 @@
     }
     
     .plantilla-left {
-        width: 75%;
         padding: 0 70px;
     }
     
@@ -290,10 +363,6 @@
         display: block;
     }
 }
-
-
-
-
 
 @media (min-width: 768px) {
     .testimonios .testim {
@@ -343,14 +412,10 @@
         justify-content: flex-start;
     }
 
-
-
     .equipo {
         padding: 80px !important;
         padding-bottom: 0 !important;
     }
-
-
 
     .exitos .casos,
     .seccion-exitos .casos {
@@ -365,9 +430,6 @@
     .seccion-exitos .cada-trabajo {
         width: 45%;
     }
-
-
-
 
     .noticias .cards-noticias,
     .seccion-noticias .cards-noticias {
@@ -397,11 +459,9 @@
         height: 250px;
     }
 
-
     .contacto .form-foto {
         flex-direction: row;
     }
-
 
     .contacto form .input-group {
         width: 100%;
@@ -414,7 +474,6 @@
     .contacto .contact-img {
         width: 45% !important;
     }
-
 
     .primer-box {
         text-align: start;
@@ -450,6 +509,7 @@
 @media (min-width: 680px) {
     .cultura {
         height: 415px;
+        margin-bottom: 35px;
     }
     .cultura .cultura-img {
         width: 50%;
@@ -477,7 +537,6 @@
         font-size: 20px;
     }
 
-
     .home-servs-right {
         width: 100%;
         display: grid;
@@ -485,7 +544,6 @@
         grid-auto-rows: 200px;
         gap: 10px;
     }
-
 
     .tecnologias {
         width: 100%;
@@ -501,8 +559,6 @@
         min-width: 25%;
     }
 }
-
-
 
 
 @media (min-width: 600px) {
@@ -523,9 +579,6 @@
 }
 
 
-
-
-
 @media (min-width: 576px) {
     .header {
         padding: 0 50px !important;
@@ -541,6 +594,11 @@
     
 }
 
+@media screen and (max-width: 991px) {
+    .img-servicios-a {
+        display: none;
+    }
+}
 
 
 

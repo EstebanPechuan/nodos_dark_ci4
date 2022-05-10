@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost/nodos_dark_ci4/';
+    public $baseURL = 'localhost/nodos_idiomas';
 
     /**
      * --------------------------------------------------------------------------

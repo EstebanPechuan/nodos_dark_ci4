@@ -1,0 +1,138 @@
+.section-nosotros {
+    width: 100%;
+    padding: 0 50px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section-nosotros .nosotros-texto {
+    width: 600px;
+    color: #C84C31;
+}
+.section-nosotros .nosotros-texto h1 {
+    font-size: 40px;
+    color: #C84C31;
+    text-shadow: 0 4px 4px #0009;
+    margin-bottom: 30px;
+}
+.section-nosotros .nosotros-texto p {
+    color: #fff;
+    font-size: 20px;
+}
+.section-nosotros .nosotros-img {
+    width: 500px;
+}
+.section-nosotros .nosotros-img img {
+    width: 100%;
+}
+
+.valores {
+    width: 100%;
+    padding: 30px 50px;
+}
+.valores h2 {
+    text-align: right;
+    color: #C84C31;
+}
+.valores .cards-valores {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.valores .cards-valores .card-valores {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #fff;
+}
+.valores h2 {
+    font-size: 36px;
+    padding: 30px 0;
+    text-shadow: 0 4px 4px #0009;
+}
+.valores .cards-valores .card-valores h3 {
+    font-size: 24px;
+    color: var(--clr-scdy);
+}
+
+.mision {
+    width: 100%;
+    padding: 0 50px;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    background: linear-gradient(270deg, rgba(30, 39, 53, 0.75) 0%, rgba(30, 39, 53, 0) 100%);
+}
+.mision .mision-texto {
+    width: 500px;
+    color: #fff;
+}
+.mision .mision-texto h2 {
+    color: var(--clr-scdy);
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.mision .mision-texto p {
+    font-size: 20px;
+}
+.mision .mision-img {
+    width: 600px;
+}
+.mision .mision-img img {
+    width: 100%;
+}
+
+.vision {
+    width: 100%;
+    padding: 0 50px;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    background: linear-gradient(90deg, rgba(30, 39, 53, 0.75) 0%, rgba(30, 39, 53, 0) 100%);
+}
+.vision .vision-texto {
+    width: 500px;
+    color: #fff;
+}
+.vision .vision-texto h2 {
+    color: #C84C31;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.vision .vision-texto p {
+    font-size: 20px;
+}
+.vision .vision-img {
+    width: 600px;
+}
+.vision .vision-img img {
+    width: 100%;
+}
+
+.cultura a {
+    width: fit-content;
+    padding: 20px 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    color: var(--clr-scdy);
+    background: #0003;
+    transition: 0.4s;
+}
+
+@media screen and (max-width: 450px) {
+    .mision-texto {
+        padding: 0 30px;
+    }
+
+    .vision-texto {
+        padding: 0 30px;
+    }
+}

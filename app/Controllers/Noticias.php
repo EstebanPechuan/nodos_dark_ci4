@@ -6,13 +6,16 @@ class Noticias extends BaseController {
 
     public function index() {
         $data['contenido'] = 'noticias';
-        $data['clase_header'] = 'header-scroll';
+        $data['clase_header'] = null;
         $data['images'] = [
             [
                 'educacion' => 'public/img/noticias/educacion1.jpg'
             ],
             [
                 'red_federal' => 'public/img/noticias/red.jpg'
+            ],
+            [
+                'osse' => 'public/img/noticias/osse.jpg'
             ]
         ];
         return view('template', $data);
@@ -73,6 +76,26 @@ class Noticias extends BaseController {
             // [
             //     'id' => 3,
             //     'url' => 'public/img/noticias/educacion3.jpg'
+            // ]
+        ];
+        return view('template', $data);
+    }
+
+    public function osse() {
+        $data['contenido'] = 'noticias/osse';
+        $data['clase_header'] = null;
+        $data['images'] = [
+            [
+                'id' => 1,
+                'url' => 'public/img/noticias/osse.jpg'
+            ],
+            // [
+            //     'id' => 2,
+            //     'url' => 'public/img/noticias/osse2.jpg'
+            // ],
+            // [
+            //     'id' => 3,
+            //     'url' => 'public/img/noticias/osse3.jpg'
             // ]
         ];
         return view('template', $data);

@@ -10,7 +10,7 @@
                      } ?> " alt="">
                 <div class="plant-noti-titulo">
                     <h1>Somos parte de la Red Federal de Pymes Innovadoras</h1>
-                    <p>Fecha / Hora</p>
+                    <!-- <p>Fecha / Hora</p> -->
                 </div>
             </div>
 
@@ -68,28 +68,8 @@
                 </div>
             </div>
         </div>
-
-    </div>
-
-    <div class="plantilla-right">
-        <h4>Noticias recientes</h4>
-        <ul>
-            <li>
-                <a href="#c">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
-            </li>
-            <li>
-                <a href="#c">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
-            </li>
-            <li>
-                <a href="#c">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
-            </li>
-            <li>
-                <a href="#c">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
-            </li>
-        </ul>
     </div>
 </section>
-
 
 <!-- Modal Lightbox - w3school -->
 <script>

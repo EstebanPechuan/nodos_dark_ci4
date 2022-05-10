@@ -1,28 +1,59 @@
-const slider = document.querySelector('.logos')
-let isDown, startX, scrollLeft
-
-slider.addEventListener('mousedown', (e) => {
-    isDown = true
-    slider.classList.add('active')
-    startX = e.pageX - slider.offsetLeft
-    scrollLeft = slider.scrollLeft
+// Scroll Down
+window.addEventListener('scroll', () => {
+    const navMenu = document.querySelector('.header')
+    navMenu.classList.toggle('header-scroll', window.scrollY > 0)
 })
 
-slider.addEventListener('mouseleave', () => {
-    isDown = false
-    slider.classList.remove('active')
+let menu = document.querySelector('.menu')
+let botonMenu = document.querySelector('.iconos')
+let iconosMenu = document.querySelectorAll('.iconos img')
+
+botonMenu.addEventListener('click', () => {
+    iconosMenu[0].classList.toggle('icon-active')
+    iconosMenu[1].classList.toggle('icon-active')
+
+    menu.classList.toggle('menu-active')
 })
 
-slider.addEventListener('mouseup', () => {
-    isDown = false
-    slider.classList.remove('active')
-})
 
-slider.addEventListener('mousemove', (e) => {
-    if (!isDown) return  //Frena la función
-    e.preventDefault()
-    
-    const x = e.pageX - slider.offsetLeft
-    const walk = (x - startX) * 0.8
-    slider.scrollLeft = scrollLeft - walk
-})
+// Modal Lightbox - w3school
+// Open the Modal
+function openModal() {
+    document.getElementById("myModal").style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+    document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+    captionText.innerHTML = dots[slideIndex - 1].alt;
+}
