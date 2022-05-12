@@ -1,6 +1,6 @@
 <section class="seccion-noticias">
-    <h1>Noticias</h1>
-    <p>Te dejamos las novedades del mundo IT en las que Nodos Hub ha estado presente</p>
+    <h1 id="noticias-title">Noticias</h1>
+    <p id="noticias-subtitle">Te dejamos las novedades del mundo IT en las que Nodos Hub ha estado presente</p>
 
 
     <div class="cards-noticias">
@@ -15,11 +15,12 @@
             </div>
 
             <div class="noti-info">
-                <h4>Nodos Educación</h4>
-                <p>La plataforma desarrollada permite realizar funciones de educación, gestión académica, sistema de cobros, y lo más importante es que es una actividad oficial de las instituciones.</p>
+                <h4 id="noticias-edu">Nodos Educación</h4>
+                <p id="noticias-subedu">La plataforma desarrollada permite realizar funciones de educación, gestión académica, sistema de cobros, y lo más importante es que es una actividad oficial de las instituciones.</p>
                 <a href="noticias/educacion">
-                    Leer más
-                    <span>&#10140;</span>
+                    <p class="noticias-leer">
+                        Leer más
+                    </p><span>&#10140;</span>
                 </a>
             </div>
         </div>
@@ -35,11 +36,12 @@
             </div>
 
             <div class="noti-info">
-                <h4>Red Federal de Pymes Innovadoras</h4>
-                <p>En el mes de marzo recibimos una noticia que nos hace sentir orgullosos del trabajo realizado por nuestro equipo en Nodos.</p>
+                <h4 id="noticias-rf">Red Federal de Pymes Innovadoras</h4>
+                <p id="noticias-subrf">En el mes de marzo recibimos una noticia que nos hace sentir orgullosos del trabajo realizado por nuestro equipo en Nodos.</p>
                 <a href="noticias/red_federal">
-                    Leer más
-                    <span>&#10140;</span>
+                    <p class="noticias-leer">
+                        Leer más
+                    </p><span>&#10140;</span>
                 </a>
             </div>
         </div>
@@ -55,11 +57,12 @@
             </div>
 
             <div class="noti-info">
-                <h4>Concurso de OSSE “Así cuidamos el agua potable”</h4>
-                <p>Nuestro equipo trabajo para digitalizar los certificados emitidos para los participantes del certamen escolar “Así cuidamos el agua” ya que en el mismo participaron escuelas de toda la provincia.</p>
+                <h4 id="noticias-osse">Concurso de OSSE “Así cuidamos el agua potable”</h4>
+                <p id="noticias-subosse">Nuestro equipo trabajo para digitalizar los certificados emitidos para los participantes del certamen escolar “Así cuidamos el agua” ya que en el mismo participaron escuelas de toda la provincia.</p>
                 <a href="noticias/osse">
-                    Leer más
-                    <span>&#10140;</span>
+                    <p class="noticias-leer">
+                        Leer más
+                    </p><span>&#10140;</span>
                 </a>
             </div>
         </div>

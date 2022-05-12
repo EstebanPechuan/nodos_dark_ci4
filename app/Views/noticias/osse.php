@@ -4,17 +4,17 @@
             <div class="plant-noti-img">
                 <img src=" <?php echo base_url($images[0]['url']) ?> " alt="">
                 <div class="plant-noti-titulo">
-                    <h1>Realización de certificados digitales otorgados por Osse</h1>
+                    <h1 id="osse-title">Realización de certificados digitales otorgados por Osse</h1>
                     <!-- <p>Fecha / Hora</p> -->
                 </div>
             </div>
 
             <div class="info-noticia">
-                <p>Nuestro equipo  trabajo para digitalizar los certificados emitidos para los participantes del certamen  escolar “Así cuidamos el agua” ya que en el mismo participaron escuelas de toda la provincia.</p>
+                <p id="osse-l-1">Nuestro equipo  trabajo para digitalizar los certificados emitidos para los participantes del certamen  escolar “Así cuidamos el agua” ya que en el mismo participaron escuelas de toda la provincia.</p>
 
-                <p>Trabajamos en  conjunto con el área de comunicación de Osse y aportando nuestro conocimiento en el mundo IT logramos realizar el pedido principal de la organización: la digitalización de los certificados para los mil alumnos que participaron en la competencia.</p>
+                <p id="osse-l-2">Trabajamos en  conjunto con el área de comunicación de Osse y aportando nuestro conocimiento en el mundo IT logramos realizar el pedido principal de la organización: la digitalización de los certificados para los mil alumnos que participaron en la competencia.</p>
 
-                <p>Desde Nodos sentimos que fue muy enriquecedor participar desde lo digital en tan importante certamen que impulsa tanto Osse como el gobierno de San Juan para los alumnos de las escuelas de la provincia.</p>
+                <p id="osse-l-3">Desde Nodos sentimos que fue muy enriquecedor participar desde lo digital en tan importante certamen que impulsa tanto Osse como el gobierno de San Juan para los alumnos de las escuelas de la provincia.</p>
             </div>
 
 

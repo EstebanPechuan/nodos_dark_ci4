@@ -4,15 +4,15 @@
         <img src=" <?php echo base_url('public/img/noditos.jpeg') ?> " loading="lazy" alt=""></picture>
         <video src="http://nodoshub.com/testing/public/videos/NODOS-video.mp4" autoplay="autoplay" muted loop="true" preload="auto" class="video"></video>
     <div class="info">
-        <h2>Te presentamos a nuestro equipo</h2>
-        <p>El que hace realidad tus ideas</p>
+        <h2 id="equipo_title">Te presentamos a nuestro equipo</h2>
+        <p id="equipo_subtitle">El que hace realidad tus ideas</p>
     </div>
 </section>
 
 
 <div class="puestos">
     <div onclick="javascript:buttonTodos()" id="todos" class="boton-puesto puesto-active">
-        <button>TODOS</button>
+        <button id="equipo_all">TODOS</button>
     </div>
 
     <div onclick="javascript:buttonCeo()" onclick="javascript:buttonCeo()" id="ceo" class="boton-puesto">
@@ -24,11 +24,11 @@
     </div> -->
 
     <div onclick="javascript:buttonAdministracion()" id="administracion" class="boton-puesto">
-        <button>ADMINISTRACIÓN</button>
+        <button id="admin">ADMINISTRACIÓN</button>
     </div>
 
     <div onclick="javascript:buttonAnalista()" id="analista" class="boton-puesto">
-        <button>ANALISTA FUNCIONAL</button>
+        <button id="analist">ANALISTA FUNCIONAL</button>
     </div>
 
     <div onclick="javascript:buttonDesMov()" id="dev-mob" class="boton-puesto">
@@ -36,7 +36,7 @@
     </div>
 
     <div onclick="javascript:buttonUxUi()" id="ux-ui" class="boton-puesto">
-        <button>DISEÑO UX/UI</button>
+        <button id="uxui">DISEÑO UX/UI</button>
     </div>
 
     <div onclick="javascript:buttonBack()" id="back" class="boton-puesto">
@@ -64,7 +64,7 @@
     </div>
 
     <div onclick="javascript:buttonRRHH()" id="rrhh" class="boton-puesto">
-        <button>RECURSOS HUMANOS</button>
+        <button id="hr">RECURSOS HUMANOS</button>
     </div>
 
     <div onclick="javascript:buttonBPM()" id="bpm" class="boton-puesto">
@@ -100,7 +100,7 @@
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Pamela Ávila</h3>
-            <p>Administración</p>
+            <p id="equipo-admin">Administración</p>
         </div>
     </div>
     
@@ -110,7 +110,7 @@
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Jorgelina Pérez Villa</h3>
-            <p>Analista Funcional</p>
+            <p id="equipo-analista">Analista Funcional</p>
         </div>
     </div>
 
@@ -140,7 +140,7 @@
         </div>
         <div class="card-ind-info">
             <h3 class="clr-orange">Valentina Visciglio</h3>
-            <p>Diseñadora UX/UI</p>
+            <p id="equipo-uxui-f">Diseñadora UX/UI</p>
         </div>
     </div>
 
@@ -150,7 +150,7 @@
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Juan Cruz Carreño</h3>
-            <p>Diseñador UX/UI</p>
+            <p id="equipo-uxui-m">Diseñador UX/UI</p>
         </div>
     </div>
 
@@ -305,7 +305,7 @@
         </div>
         <div class="card-ind-info">
             <h3 class="clr-orange">Sebastián Morrone</h3>
-            <p>Ingeniero QA/QC</p>
+            <p id="equipo-qaqc">Ingeniero QA/QC</p>
         </div>
     </div>
 
@@ -419,7 +419,7 @@
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Juan Cruz Gonzalez</h3>
-            <p>Recursos Humanos</p>
+            <p id="equipo-rrhh">Recursos Humanos</p>
         </div>
     </div>
     

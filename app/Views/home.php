@@ -34,29 +34,29 @@
             <div class="box-img wow-home-200 fadeInRight">
                 <img src=" <?php echo base_url('public/img/analisis (2).png') ?> " alt="" loading="lazy">
                 <div class="fondo-azul">
-                    <h4 id="home-serv-analisis">Análisis</h4>
-                    <p id="home-serv-subanalisis">Detectamos la raíz de tu necesidad con documentación entregable</p>
+                    <h4 class="home-serv-analisis">Análisis</h4>
+                    <p class="home-serv-subanalisis">Detectamos la raíz de tu necesidad con documentación entregable.</p>
                 </div>
             </div>
             <div class="box-img wow-home-200 fadeInRight" data-wow-delay="0.2s">
                 <img src=" <?php echo base_url('public/img/desarrollo-web (2).png') ?> " alt="" loading="lazy">
                 <div class="fondo-azul">
-                    <h4 id="home-serv-analisis">Desarrollo Web</h4>
-                    <p id="home-serv-analisis">Digitaliza procesos en la nube, ahorrando tiempos y costos.</p>
+                    <h4 class="home-serv-dw">Desarrollo Web</h4>
+                    <p class="home-serv-subdw">Digitaliza procesos en la nube, ahorrando tiempos y costos.</p>
                 </div>
             </div>
             <div class="box-img wow-home-200 fadeInRight" data-wow-delay="0.4s">
                 <img src=" <?php echo base_url('public/img/students (2).png') ?> " alt="" loading="lazy">
                 <div class="fondo-azul">
-                    <h4 id="home-serv-analisis">Ed Tech</h4>
-                    <p id="home-serv-analisis">Plataforma integral de comunicación y gestión académica.</p>
+                    <h4 class="home-serv-et">Ed Tech</h4>
+                    <p class="home-serv-subet">Plataforma integral de comunicación y gestión académica.</p>
                 </div>
             </div>
             <div class="box-img wow-home-200 fadeInRight" data-wow-delay="0.6s">
                 <img src=" <?php echo base_url('public/img/big-data (2).png') ?> " alt="" loading="lazy">
                 <div class="fondo-azul">
-                    <h4 id="home-serv-analisis">Big Data - IA</h4>
-                    <p id="home-serv-analisis">Análisis y procesamiento de grandes volumenes de datos.</p>
+                    <h4 class="home-serv-bd">Big Data - IA</h4>
+                    <p class="home-serv-subbd">Análisis y procesamiento de grandes volumenes de datos.</p>
                 </div>
             </div>
         </div>
@@ -71,8 +71,8 @@
                         <img src=" <?php echo base_url('public/img/analisis (2).png') ?> " alt="" loading="lazy" class="bg-img">
                     </div>
                     <div class="text-anim">
-                        <h4 id="home-serv-analisis">Análisis</h4>
-                        <p id="home-serv-subanalisis">Detectamos la raíz de tu necesidad con documentación entregable</p>
+                        <h4 class="home-serv-analisis">Análisis</h4>
+                        <p class="home-serv-subanalisis">Detectamos la raíz de tu necesidad con documentación entregable.</p>
                     </div>
                 </div>
             </div>
@@ -83,8 +83,8 @@
                         <img src=" <?php echo base_url('public/img/desarrollo-web (2).png') ?> " alt="" loading="lazy" class="bg-img">
                     </div>
                     <div class="text-anim">
-                        <h4 id="home-serv-analisis">Desarrollo Web</h4>
-                        <p id="home-serv-analisis">Digitaliza procesos en la nube, ahorrando tiempos y costos.</p>
+                        <h4 class="home-serv-dw">Desarrollo Web</h4>
+                        <p class="home-serv-subdw">Digitaliza procesos en la nube, ahorrando tiempos y costos.</p>
                     </div>
                 </div>
             </div>
@@ -95,8 +95,8 @@
                         <img src=" <?php echo base_url('public/img/students (2).png') ?> " alt="" loading="lazy" class="bg-img">
                     </div>
                     <div class="text-anim">
-                        <h4 id="home-serv-analisis">Ed Tech</h4>
-                        <p id="home-serv-analisis">Plataforma integral de comunicación y gestión académica.</p>
+                        <h4 class="home-serv-et">Ed Tech</h4>
+                        <p class="home-serv-subet">Plataforma integral de comunicación y gestión académica.</p>
                     </div>
                 </div>
             </div>
@@ -107,8 +107,8 @@
                         <img src=" <?php echo base_url('public/img/big-data (2).png') ?> " alt="" loading="lazy" class="bg-img">
                     </div>
                     <div class="text-anim">
-                        <h4 id="home-serv-analisis">Big Data - IA</h4>
-                        <p id="home-serv-analisis">Análisis y procesamiento de grandes volumenes de datos.</p>
+                        <h4 class="home-serv-bd">Big Data - IA</h4>
+                        <p class="home-serv-subbd">Análisis y procesamiento de grandes volumenes de datos.</p>
                     </div>
                 </div>
             </div>
@@ -228,9 +228,10 @@
             <div class="noti-info">
                 <h4 id="home-noticias-educacion">Nodos Educación</h4>
                 <p id="home-noticias-subeducacion">La plataforma desarrollada permite realizar funciones de educación, gestión académica, sistema de cobros, y lo más importante es que es una actividad oficial de las instituciones.</p>
-                <a href="noticias/educacion" id="home-noticias-leerMas1">
-                    Leer más
-                    <span>&#10140;</span>
+                <a href="noticias/educacion">
+                    <p class="home-noticias-leerMas">
+                        Leer más
+                    </p><span>&#10140;</span>
                 </a>
             </div>
         </div>
@@ -243,9 +244,10 @@
             <div class="noti-info">
                 <h4 id="home-noticias-red" id="home-noticias-osse">Red Federal de Pymes Innovadoras</h4>
                 <p id="home-noticias-subred" id="home-noticias-subosse">En el mes de marzo recibimos una noticia que nos hace sentir orgullosos del trabajo realizado por nuestro equipo en Nodos.</p>
-                <a href="noticias/red_federal" id="home-noticias-leerMas2">
-                    Leer más
-                    <span>&#10140;</span>
+                <a href="noticias/red_federal">
+                    <p class="home-noticias-leerMas">
+                        Leer más
+                    </p><span>&#10140;</span>
                 </a>
             </div>
         </div>
@@ -258,9 +260,10 @@
             <div class="noti-info">
                 <h4 id="home-noticias-osse">Concurso de OSSE “Así cuidamos el agua potable”</h4>
                 <p id="home-noticias-subosse">Nuestro equipo trabajo para digitalizar los certificados emitidos para los participantes del certamen escolar “Así cuidamos el agua” ya que en el mismo participaron escuelas de toda la provincia.</p>
-                <a href="noticias/osse" id="home-noticias-leerMas3">
-                    Leer más
-                    <span>&#10140;</span>
+                <a href="noticias/osse">
+                    <p class="home-noticias-leerMas">
+                        Leer más
+                    </p><span>&#10140;</span>
                 </a>
             </div>
         </div>
@@ -317,8 +320,8 @@
 <figure class="circle-5"></figure>
 <figure class="circle-6"></figure>
 <figure class="circle-7"></figure>
-<figure class="circle-8"></figure>
-<figure class="circle-9"></figure>
+<!-- <figure class="circle-8"></figure>
+<figure class="circle-9"></figure> -->
 
 <!-- Animaciones de entrada -->
 <script src=" <?php echo base_url('public/js/wow.min.js') ?> "></script>
