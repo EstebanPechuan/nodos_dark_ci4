@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'localhost/nodos_idiomas';
+    public $baseURL = 'https://nodoshub.com/';
 
     /**
      * --------------------------------------------------------------------------

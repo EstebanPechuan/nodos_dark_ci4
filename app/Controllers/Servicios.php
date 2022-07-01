@@ -27,6 +27,10 @@ class Servicios extends BaseController {
                 'img_url' => 'adobe-xd.svg'
             ],
             [
+                'name' => 'After Effects',
+                'img_url' => 'after.svg'
+            ],
+            [
                 'name' => 'Miro',
                 'img_url' => 'miro.svg'
             ],
@@ -64,7 +68,7 @@ class Servicios extends BaseController {
             ],
             [
                 'name' => 'CodeIgniter',
-                'img_url' => 'codeigniter.svg'
+                'img_url' => 'codeignater.svg'
             ],
             [
                 'name' => 'Laravel',
@@ -85,6 +89,10 @@ class Servicios extends BaseController {
             [
                 'name' => 'Java',
                 'img_url' => 'java.svg'
+            ],
+            [
+                'name' => 'Spring',
+                'img_url' => 'spring.svg'
             ],
             [
                 'name' => 'HTML',

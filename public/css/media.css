@@ -25,14 +25,12 @@
     }
     
     .menu {
-        width: 100%;
+        width: auto;
         height: 100%;
         padding: 0;
         position: static;
         background: transparent;
         z-index: 3000;
-        display: flex;
-        align-items: center;
     }
     
     .menu ul {
@@ -63,11 +61,6 @@
 
     .header-scroll .logo img {
         height: 50px;
-    }
-
-    .idiomas {
-        width: fit-content;
-        margin: 0 0 0 auto !important;
     }
     
 
@@ -265,9 +258,12 @@
         padding: 110px 80px 50px !important;
     }
     
-    .cards-noticias .card-noti,
+    #noticias .cards-noticias .card-noti {
+        width: 350px !important;
+    }
+
     .seccion-noticias .cards-noticias .card-noti {
-        width: calc((100% / 3) - 50px) !important;
+        width: 100% !important;
     }
 
     .img-servicios-n {
@@ -289,6 +285,7 @@
     
     .experiencia  p {
         font-size: 16px;
+        padding-right: 20px;
     }
 
     .cultura .cultura-texto h2 {
@@ -316,7 +313,7 @@
     .exitos > h2,
     .seccion-exitos > h1,
     .seccion-noticias> h1 {
-        font-size: 45px;
+        font-size: 40px;
     }
     
     .exitos > p,
@@ -329,7 +326,7 @@
         padding: 40px 80px !important;   
     }
     .confian h2 {
-        font-size: 35px;
+        font-size: 40px;
     }
 
 
@@ -431,18 +428,18 @@
         width: 45%;
     }
 
-    .noticias .cards-noticias,
+    /* .noticias .cards-noticias,
     .seccion-noticias .cards-noticias {
         flex-wrap: wrap;
         flex-direction: row !important;
-    }
+    } */
 
     .seccion-noticias {
         padding: 110px 10px 50px;
     }
 
     .seccion-noticias .cards-noticias .card-noti {
-        width: calc(50% - 50px);
+        width: 100%;
     }
 
     .noticias h2 {
@@ -451,7 +448,7 @@
     }
     
     .noticias > p {
-        font-size: 18px;
+        font-size: 20px;
         text-align: start;
     }
 
@@ -473,6 +470,7 @@
 
     .contacto .contact-img {
         width: 45% !important;
+        margin-top: 20px;
     }
 
     .primer-box {
@@ -533,8 +531,8 @@
     }
     
     .hero .info button {
-        padding: 10px 50px;
-        font-size: 20px;
+        padding: 15px 40px;
+        font-size: 18px;
     }
 
     .home-servs-right {

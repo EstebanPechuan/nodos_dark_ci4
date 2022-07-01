@@ -1,0 +1,226 @@
+h1 {
+    font-size: 40px;
+}
+
+#postulaciones {
+    width: 100%;
+    padding: 120px 90px 40px 90px;
+    display: flex;
+}
+
+#postulaciones h1 {
+    color: white;
+}
+
+#postulaciones p {
+    color: white;
+}
+
+.p-activas {
+    width: 40%;
+    background: rgba(13, 17, 24, 0.5);
+    cursor: pointer;
+}
+
+.p-activas h1 {
+    padding: 20px 40px;
+}
+
+.p-scroll {
+    overflow: auto;
+}
+
+.p-box {
+    padding: 5px 40px 20px 40px;
+    width: 100%;
+}
+
+.p-box:hover {
+    background: rgba(91, 101, 126, 0.4);
+}
+
+.p-box h2 {
+    margin: 15px 0;
+    color: #C84C31;
+}
+
+.p-descripcion {
+    width: 60%;
+    padding: 20px 20px 20px 60px;
+    color: white;
+}
+
+.p-descripcion svg {
+    background-color: var(--clr-scdy);
+}
+
+.postular {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.postular button {
+    width: 200px;
+    padding: 15px 20px;
+    background: var(--clr-scdy);
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.condiciones {
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.c-box {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.c-box p {
+    margin-left: 15px;
+}
+
+.icon-jobs-1 {
+    background-image: url('../../img/iconos-nodosjobs/edificio.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 27px;
+}
+
+.icon-jobs-2 {
+    background-image: url('../../img/iconos-nodosjobs/maletin.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 27px;
+}
+
+.icon-jobs-3 {
+    background-image: url('../../img/iconos-nodosjobs/world.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 27px;
+}
+
+.icon-jobs-4 {
+    background-image: url('../../img/iconos-nodosjobs/tools.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 27px;
+}
+
+.requisitos {
+    margin: 20px 0;
+}
+
+.requisitos h2 {
+    margin-bottom: 15px;
+}
+
+.beneficios {
+    margin-top: 20px;
+}
+
+.beneficios h2 {
+    margin-bottom: 15px;
+}
+
+#form-jobs {
+    width: 100%;
+    padding: 0 150px;
+    text-align: center;
+}
+
+#form-jobs h1 {
+    color: var(--clr-scdy)
+}
+
+#form-jobs h3 {
+    color: white;
+    margin: 15px;
+    font-weight: bold;
+}
+
+#form-jobs p {
+    color: white;
+    margin: 15px 0;
+}
+
+#form-jobs input {
+    width: 100%;
+    margin: 15px 10px;
+    padding: 15px;
+    border-radius: 5px;
+    background: rgba(91, 101, 126, 0.4);
+    border: solid 1px #fff;
+    color: #fff;
+    font-size: 20px;
+}
+
+#form-jobs textarea {
+    width: 100%;
+    margin: 15px 10px;
+    padding: 15px;
+    border-radius: 5px;
+    resize: none;
+    background: rgba(91, 101, 126, 0.4);
+    border: solid 1px #fff;
+    color: #fff;
+    font-size: 20px;
+}
+
+.datos-jobs {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.datos-jobs > div {
+    width: 100%;
+}
+
+.espacio-cv {
+    width: 40%;
+    height: 150px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 5px;
+    background: rgba(91, 101, 126, 0.4);
+    border: solid 1px #fff;
+}
+
+.adjuntar {
+    width: 200px;
+    padding: 20px 20px;
+    margin: 15px;
+    background: #C84C31;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.postular-enviar {
+    width: 200px;
+    padding: 15px 20px;
+    margin: 15px;
+    background: var(--clr-scdy);
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}

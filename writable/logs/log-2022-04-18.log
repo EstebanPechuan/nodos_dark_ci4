@@ -1,15 +1,13 @@
-CRITICAL - 2022-04-18 11:09:09 --> Undefined offset: 2
-#0 C:\wamp64\www\nodos_dark_ci4\app\Views\noticias.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\n...', 51, Array)
-#1 C:\wamp64\www\nodos_dark_ci4\system\View\View.php(210): include('C:\\wamp64\\www\\n...')
-#2 C:\wamp64\www\nodos_dark_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#3 C:\wamp64\www\nodos_dark_ci4\system\Common.php(1089): CodeIgniter\View\View->render('noticias', Array, true)
-#4 C:\wamp64\www\nodos_dark_ci4\app\Views\template.php(37): view('noticias')
-#5 C:\wamp64\www\nodos_dark_ci4\system\View\View.php(210): include('C:\\wamp64\\www\\n...')
-#6 C:\wamp64\www\nodos_dark_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
-#7 C:\wamp64\www\nodos_dark_ci4\system\Common.php(1089): CodeIgniter\View\View->render('template', Array, true)
-#8 C:\wamp64\www\nodos_dark_ci4\app\Controllers\Noticias.php(18): view('template', Array)
-#9 C:\wamp64\www\nodos_dark_ci4\system\CodeIgniter.php(832): App\Controllers\Noticias->index()
-#10 C:\wamp64\www\nodos_dark_ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Noticias))
-#11 C:\wamp64\www\nodos_dark_ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#12 C:\wamp64\www\nodos_dark_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
-#13 {main}
+CRITICAL - 2022-04-18 11:12:46 --> Invalid file: noticias/osse.php
+#0 /home/nodosweb/public_html/testing/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('noticias/osse.p...')
+#1 /home/nodosweb/public_html/testing/system/Common.php(1089): CodeIgniter\View\View->render('noticias/osse', Array, true)
+#2 /home/nodosweb/public_html/testing/app/Views/template.php(45): view('noticias/osse')
+#3 /home/nodosweb/public_html/testing/system/View/View.php(210): include('/home/nodosweb/...')
+#4 /home/nodosweb/public_html/testing/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /home/nodosweb/public_html/testing/system/Common.php(1089): CodeIgniter\View\View->render('template', Array, true)
+#6 /home/nodosweb/public_html/testing/app/Controllers/Noticias.php(101): view('template', Array)
+#7 /home/nodosweb/public_html/testing/system/CodeIgniter.php(832): App\Controllers\Noticias->osse()
+#8 /home/nodosweb/public_html/testing/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Noticias))
+#9 /home/nodosweb/public_html/testing/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/nodosweb/public_html/testing/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

@@ -14,16 +14,16 @@
 
         <div class="footer-right">
             <div class="explorar">
-                <h4 id="footer-title">Explorar</h4>
-                <a href=" <?= base_url('/nuestro_equipo') ?> " id="footer-nosotros">Nosotros</a>
-                <a href=" <?= base_url('/nuestro_equipo') ?> " id="footer-equipo">Equipo</a>
-                <a href=" <?= base_url('/nuestro_equipo') ?> " id="footer-servs">Servicios</a>
+                <h4>Explorar</h4>
+                <a href=" <?= base_url('/nuestro_equipo') ?> ">Nosotros</a>
+                <a href=" <?= base_url('/nuestro_equipo') ?> ">Equipo</a>
+                <a href=" <?= base_url('/nuestro_equipo') ?> ">Servicios</a>
             </div>
             <div class="links">
-                <h4 id="footer-links">Links</h4>
-                <a href=" <?= base_url('/nuestro_equipo') ?> " id="footer-ayuda">Ayuda</a>
-                <a href=" <?= base_url('/nuestro_equipo') ?> " id="footer-soporte">Soporte</a>
-                <a href=" <?= base_url('/nuestro_equipo') ?> " id="footer-contacto">Contacto</a>
+                <h4>Links</h4>
+                <a href=" <?= base_url('/nuestro_equipo') ?> ">Ayuda</a>
+                <a href=" <?= base_url('/nuestro_equipo') ?> ">Soporte</a>
+                <a href=" <?= base_url('/nuestro_equipo') ?> ">Contacto</a>
             </div>
         </div>
     </div>

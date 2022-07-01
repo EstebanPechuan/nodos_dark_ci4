@@ -1,0 +1,30 @@
+CRITICAL - 2022-04-26 18:52:26 --> Class 'Assets' not found
+#0 /home/nodosweb/public_html/testing/system/View/View.php(210): include()
+#1 /home/nodosweb/public_html/testing/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/nodosweb/public_html/testing/system/Common.php(1089): CodeIgniter\View\View->render('template', Array, true)
+#3 /home/nodosweb/public_html/testing/app/Controllers/Noticias.php(61): view('template', Array)
+#4 /home/nodosweb/public_html/testing/system/CodeIgniter.php(832): App\Controllers\Noticias->educacion()
+#5 /home/nodosweb/public_html/testing/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Noticias))
+#6 /home/nodosweb/public_html/testing/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nodosweb/public_html/testing/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-26 18:53:14 --> Class 'Assets' not found
+#0 /home/nodosweb/public_html/testing/system/View/View.php(210): include()
+#1 /home/nodosweb/public_html/testing/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/nodosweb/public_html/testing/system/Common.php(1089): CodeIgniter\View\View->render('template', Array, true)
+#3 /home/nodosweb/public_html/testing/app/Controllers/Noticias.php(61): view('template', Array)
+#4 /home/nodosweb/public_html/testing/system/CodeIgniter.php(832): App\Controllers\Noticias->educacion()
+#5 /home/nodosweb/public_html/testing/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Noticias))
+#6 /home/nodosweb/public_html/testing/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nodosweb/public_html/testing/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-26 18:54:04 --> Class 'Assets' not found
+#0 /home/nodosweb/public_html/testing/system/View/View.php(210): include()
+#1 /home/nodosweb/public_html/testing/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/nodosweb/public_html/testing/system/Common.php(1089): CodeIgniter\View\View->render('template', Array, true)
+#3 /home/nodosweb/public_html/testing/app/Controllers/Noticias.php(61): view('template', Array)
+#4 /home/nodosweb/public_html/testing/system/CodeIgniter.php(832): App\Controllers\Noticias->educacion()
+#5 /home/nodosweb/public_html/testing/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Noticias))
+#6 /home/nodosweb/public_html/testing/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nodosweb/public_html/testing/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

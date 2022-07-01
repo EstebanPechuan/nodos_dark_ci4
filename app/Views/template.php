@@ -5,18 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nodos HUB - <?php echo ucfirst($contenido) ?> </title>
-
-    <!-- Scripts para Multilanguage -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT"
-	    crossorigin="anonymous">
-	</script>
-	<script src="<?php echo base_url('public/js/jquery.MultiLanguage.min.js') ?>"></script>
-    <script>
-        $(document).ready(
-            $.MultiLanguage(' <?php echo base_url('public/js/language.json') ?> ')
-        )
-    </script>
     
     <!-- Favicon -->
     <link rel="shortcut icon" href=" <?php echo base_url('public/img/fav.png') ?>" type="image/x-icon">
@@ -25,7 +13,7 @@
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet' type="text/html">
     
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/3705a5c520.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e3a36ea18d.js" crossorigin="anonymous" defer></script>
     
     <!-- Google Fonts - Sen -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,6 +27,17 @@
 
     <!-- WOW Styles -->
     <link rel="stylesheet" href=" <?php echo base_url('public/css/animate.css') ?> ">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0TP1EF9K4M"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-0TP1EF9K4M');
+    </script>
+    <script>function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"96568b213233e442578822eab1249b1e"})});</script>
 </head>
 <body>
 

@@ -4,25 +4,23 @@
             <div class="plant-noti-img">
                 <img src=" <?php echo base_url($images[0]['url']) ?> " alt="">
                 <div class="plant-noti-titulo">
-                    <h1 id="edu-title">En Nodos creamos una plataforma para instituciones educativas</h1>
+                    <h1>En Nodos creamos una plataforma para instituciones educativas</h1>
                     <!-- <p>Fecha / Hora</p> -->
                 </div>
             </div>
 
             <div class="info-noticia">
-                <p id="edu-l-1">La plataforma desarrollada permite realizar funciones de educación, gestión académica, sistema de cobros, y lo más importante es que es una actividad oficial de las instituciones.</p>
+                <p>La plataforma desarrollada permite realizar funciones de educación, gestión académica, sistema de cobros, y lo más importante es que es una actividad oficial de las instituciones.</p>
 
-                <p id="edu-l-2">Facilitamos la comunicación institucional con un canal privado y oficial del colegio. Una comunicación inmediata para todos los miembros: docentes, directivos, padres y alumnos. La forma de enviar y recibir comunicados es intuitiva, simple y segura para todos los perfiles de usuario. La gestión académica, inscripciones, facturación, orientación y seguimiento son ahora tareas cotidianas de ágil resolución.</p>
+                <p>Facilitamos la comunicación institucional con un canal privado y oficial del colegio. Una comunicación inmediata para todos los miembros: docentes, directivos, padres y alumnos. La forma de enviar y recibir comunicados es intuitiva, simple y segura para todos los perfiles de usuario. La gestión académica, inscripciones, facturación, orientación y seguimiento son ahora tareas cotidianas de ágil resolución.</p>
 
-                <p id="edu-l-3">Nuestro objetivo es colaborar con instituciones que buscan dar un paso en la transformación tecnológica que la educación está atravesando. La ventaja de este servicio es que brinde todas las soluciones necesarias en el día a día de cada colegio.</p>
+                <p>Nuestro objetivo es colaborar con instituciones que buscan dar un paso en la transformación tecnológica que la educación está atravesando. La ventaja de este servicio es que brinde todas las soluciones necesarias en el día a día de cada colegio.</p>
 
-                <p id="edu-l-4">Actualmente en la provincia de San Juan trabajamos con 20 instituciones, entre ellas:</p>
-                
-                <p id="edu-l-5">
-                    Esc. Modelo, Col. Santa Rosa de Lima, Col. Santo Domingo, Esc. Dante Alighieri, Col. San Bernardo, Col. Dr. B. A. Houssay, Col. Inglés, Col. Fasta Federico Ozanam, Esc. Industrial D. F. Sarmiento, Col. San Agustín, Col. San Pablo, Col. San José, Col. María Auxiliadora, Col. P. Perez Hernandez, Col. Ntra Sra. de la Medalla Milagrosa, Instituto Idiomatic Center, Col. Integral, Col. San Francisco, Del Prado, Col. Modelo.
-                </p>
+                <p>Actualmente en la provincia de San Juan trabajamos con 20 instituciones, entre ellas:
+                <br> <br>    
+                Esc. Modelo, Col. Santa Rosa de Lima, Col. Santo Domingo, Esc. Dante Alighieri, Col. San Bernardo, Col. Dr. B. A. Houssay, Col. Inglés, Col. Fasta Federico Ozanam, Esc. Industrial D. F. Sarmiento, Col. San Agustín, Col. San Pablo, Col. San José, Col. María Auxiliadora, Col. P. Perez Hernandez, Col. Ntra Sra. de la Medalla Milagrosa, Instituto Idiomatic Center, Col. Integral, Col. San Francisco, Del Prado, Col. Modelo.</p>
 
-                <p id="edu-l-6">En Nodos queremos ser el puente para un mejor futuro en nuestra educación.</p>
+                <p>En Nodos queremos ser el puente para un mejor futuro en nuestra educación.</p>
             </div>
 
 

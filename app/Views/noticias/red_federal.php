@@ -9,21 +9,21 @@
                         echo base_url('public/img/noti1.jpg');
                      } ?> " alt="">
                 <div class="plant-noti-titulo">
-                    <h1 id="red-title">Somos parte de la Red Federal de Pymes Innovadoras</h1>
+                    <h1>Somos parte de la Red Federal de Pymes Innovadoras</h1>
                     <!-- <p>Fecha / Hora</p> -->
                 </div>
             </div>
 
             <div class="info-noticia">
-                <p id="red-l-1">En el mes de marzo recibimos una noticia que nos hace sentir orgullosos del trabajo realizado por nuestro equipo en Nodos. Fuimos seleccionados para formar parte de la Red Federal de Pymes Innovadoras, la misma es un espacio de diálogo y articulación de empresas innovadoras.</p>
+                <p>En el mes de marzo recibimos una noticia que nos hace sentir orgullosos del trabajo realizado por nuestro equipo en Nodos. Fuimos seleccionados para formar parte de la Red Federal de Pymes Innovadoras, la misma es un espacio de diálogo y articulación de empresas innovadoras.</p>
 
-                <p id="red-l-2">La Red Federal de Pymes Innovadoras surgió a partir de la necesidad, expresada en mesas de diálogo realizadas por la Agencia I+D+i y el Ministerio de Ciencia, Tecnología e Innovación con representantes de empresas de diferentes puntos del país, de acompañar más allá de lo financiero a las pymes innovadoras.</p>
+                <p>La Red Federal de Pymes Innovadoras surgió a partir de la necesidad, expresada en mesas de diálogo realizadas por la Agencia I+D+i y el Ministerio de Ciencia, Tecnología e Innovación con representantes de empresas de diferentes puntos del país, de acompañar más allá de lo financiero a las pymes innovadoras.</p>
 
-                <p id="red-l-3">Nuestro objetivo es colaborar con instituciones que buscan dar un paso en la transformación tecnológica que la educación está atravesando. La ventaja de este servicio es que brinde todas las soluciones necesarias en el día a día de cada colegio.</p>
+                <p>Nuestro objetivo es colaborar con instituciones que buscan dar un paso en la transformación tecnológica que la educación está atravesando. La ventaja de este servicio es que brinde todas las soluciones necesarias en el día a día de cada colegio.</p>
 
-                <p id="red-l-4">El objetivo es que la red se continúe desarrollando a partir de un trabajo conjunto entre la Agencia, el Ministerio y las empresas para que actores productivos pertenecientes a áreas diversas como la inteligencia artificial, la industria 4.0, la economía circular, la comunicación satelital se potencien a partir de compartir conocimientos y capacidades y exploren líneas de interés común.</p>
+                <p>El objetivo es que la red se continúe desarrollando a partir de un trabajo conjunto entre la Agencia, el Ministerio y las empresas para que actores productivos pertenecientes a áreas diversas como la inteligencia artificial, la industria 4.0, la economía circular, la comunicación satelital se potencien a partir de compartir conocimientos y capacidades y exploren líneas de interés común.</p>
 
-                <p id="red-l-5">Estamos orgullosos de poder formar parte de este espacio de diálogo y mejoras en el mundo de la tecnología e innovación.</p>
+                <p>Estamos orgullosos de poder formar parte de este espacio de diálogo y mejoras en el mundo de la tecnología e innovación.</p>
             </div>
 
 

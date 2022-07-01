@@ -1,0 +1,72 @@
+CRITICAL - 2022-04-11 19:40:38 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::with() must be of the type string, array given, called in /home/nodosweb/public_html/testing/app/Controllers/Home.php on line 40
+#0 /home/nodosweb/public_html/testing/app/Controllers/Home.php(40): CodeIgniter\HTTP\RedirectResponse->with(Array)
+#1 /home/nodosweb/public_html/testing/system/CodeIgniter.php(832): App\Controllers\Home->sendMailContact()
+#2 /home/nodosweb/public_html/testing/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/nodosweb/public_html/testing/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nodosweb/public_html/testing/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-11 19:53:07 -->  route cannot be found while reverse-routing.
+#0 /home/nodosweb/public_html/testing/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /home/nodosweb/public_html/testing/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /home/nodosweb/public_html/testing/app/Controllers/Home.php(63): redirect('template', Array)
+#3 /home/nodosweb/public_html/testing/system/CodeIgniter.php(832): App\Controllers\Home->sendMailContact()
+#4 /home/nodosweb/public_html/testing/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/nodosweb/public_html/testing/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nodosweb/public_html/testing/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-11 20:15:40 --> Too few arguments to function App\Controllers\Home::index(), 0 passed in /home/nodosweb/public_html/testing/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/nodosweb/public_html/testing/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#1 /home/nodosweb/public_html/testing/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/nodosweb/public_html/testing/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nodosweb/public_html/testing/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-11 20:15:44 --> Too few arguments to function App\Controllers\Home::index(), 0 passed in /home/nodosweb/public_html/testing/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/nodosweb/public_html/testing/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#1 /home/nodosweb/public_html/testing/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/nodosweb/public_html/testing/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nodosweb/public_html/testing/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-11 20:17:05 --> Call to undefined function App\Controllers\index()
+#0 /home/nodosweb/public_html/testing/system/CodeIgniter.php(832): App\Controllers\Home->sendMailContact()
+#1 /home/nodosweb/public_html/testing/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/nodosweb/public_html/testing/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nodosweb/public_html/testing/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-11 20:38:34 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 /home/nodosweb/public_html/testing/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/nodosweb/...')
+#1 /home/nodosweb/public_html/testing/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/nodosweb/public_html/testing/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /home/nodosweb/public_html/testing/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /home/nodosweb/public_html/testing/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nodosweb/public_html/testing/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-11 20:39:02 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 /home/nodosweb/public_html/testing/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/nodosweb/...')
+#1 /home/nodosweb/public_html/testing/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/nodosweb/public_html/testing/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /home/nodosweb/public_html/testing/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /home/nodosweb/public_html/testing/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nodosweb/public_html/testing/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-11 21:15:06 --> Call to undefined method CodeIgniter\Email\Email::set_header()
+#0 /home/nodosweb/public_html/testing/system/CodeIgniter.php(832): App\Controllers\Home->sendMailContact()
+#1 /home/nodosweb/public_html/testing/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/nodosweb/public_html/testing/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nodosweb/public_html/testing/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-11 21:16:58 --> Call to undefined method CodeIgniter\Email\Email::set_header()
+#0 /home/nodosweb/public_html/testing/system/CodeIgniter.php(832): App\Controllers\Home->sendMailContact()
+#1 /home/nodosweb/public_html/testing/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/nodosweb/public_html/testing/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nodosweb/public_html/testing/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-11 21:17:08 --> Call to undefined method CodeIgniter\Email\Email::set_header()
+#0 /home/nodosweb/public_html/testing/system/CodeIgniter.php(832): App\Controllers\Home->sendMailContact()
+#1 /home/nodosweb/public_html/testing/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/nodosweb/public_html/testing/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nodosweb/public_html/testing/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

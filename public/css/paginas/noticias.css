@@ -24,9 +24,8 @@
 
 .seccion-noticias .cards-noticias {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 50px;
 }
 

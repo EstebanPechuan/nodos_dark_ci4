@@ -4,15 +4,15 @@
         <img src=" <?php echo base_url('public/img/noditos.jpeg') ?> " loading="lazy" alt=""></picture>
         <video src="http://nodoshub.com/testing/public/videos/NODOS-video.mp4" autoplay="autoplay" muted loop="true" preload="auto" class="video"></video>
     <div class="info">
-        <h2 id="equipo_title">Te presentamos a nuestro equipo</h2>
-        <p id="equipo_subtitle">El que hace realidad tus ideas</p>
+        <h2>Te presentamos a nuestro equipo</h2>
+        <p>El que hace realidad tus ideas</p>
     </div>
 </section>
 
 
 <div class="puestos">
     <div onclick="javascript:buttonTodos()" id="todos" class="boton-puesto puesto-active">
-        <button id="equipo_all">TODOS</button>
+        <button>TODOS</button>
     </div>
 
     <div onclick="javascript:buttonCeo()" onclick="javascript:buttonCeo()" id="ceo" class="boton-puesto">
@@ -24,11 +24,11 @@
     </div> -->
 
     <div onclick="javascript:buttonAdministracion()" id="administracion" class="boton-puesto">
-        <button id="admin">ADMINISTRACIÓN</button>
+        <button>ADMINISTRACIÓN</button>
     </div>
 
     <div onclick="javascript:buttonAnalista()" id="analista" class="boton-puesto">
-        <button id="analist">ANALISTA FUNCIONAL</button>
+        <button>ANALISTA FUNCIONAL</button>
     </div>
 
     <div onclick="javascript:buttonDesMov()" id="dev-mob" class="boton-puesto">
@@ -36,7 +36,7 @@
     </div>
 
     <div onclick="javascript:buttonUxUi()" id="ux-ui" class="boton-puesto">
-        <button id="uxui">DISEÑO UX/UI</button>
+        <button>DISEÑO UX/UI</button>
     </div>
 
     <div onclick="javascript:buttonBack()" id="back" class="boton-puesto">
@@ -64,7 +64,11 @@
     </div>
 
     <div onclick="javascript:buttonRRHH()" id="rrhh" class="boton-puesto">
-        <button id="hr">RECURSOS HUMANOS</button>
+        <button>RECURSOS HUMANOS</button>
+    </div>
+
+    <div onclick="javascript:buttonEC()" id="ec" class="boton-puesto">
+        <button>EJECTUTIVO COMERCIAL</button>
     </div>
 
     <div onclick="javascript:buttonBPM()" id="bpm" class="boton-puesto">
@@ -100,7 +104,7 @@
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Pamela Ávila</h3>
-            <p id="equipo-admin">Administración</p>
+            <p>Administración</p>
         </div>
     </div>
     
@@ -110,7 +114,7 @@
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Jorgelina Pérez Villa</h3>
-            <p id="equipo-analista">Analista Funcional</p>
+            <p>Analista Funcional</p>
         </div>
     </div>
 
@@ -140,7 +144,7 @@
         </div>
         <div class="card-ind-info">
             <h3 class="clr-orange">Valentina Visciglio</h3>
-            <p id="equipo-uxui-f">Diseñadora UX/UI</p>
+            <p>Diseñadora UX/UI</p>
         </div>
     </div>
 
@@ -150,7 +154,7 @@
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Juan Cruz Carreño</h3>
-            <p id="equipo-uxui-m">Diseñador UX/UI</p>
+            <p>Diseñador UX/UI</p>
         </div>
     </div>
 
@@ -211,6 +215,16 @@
         </div>
         <div class="card-ind-info">
             <h3 class="clr-orange">Mariana Pastrán</h3>
+            <p>Back End</p>
+        </div>
+    </div>  
+
+    <div class="card-individual back">
+        <div class="card-ind-img">
+            <img src=" <?php echo base_url('public/img/equipo-resize/maxi.jpeg') ?> " loading="lazy" alt="">
+        </div>
+        <div class="card-ind-info">
+            <h3 class="clr-orange">Maximiliano Dominguez</h3>
             <p>Back End</p>
         </div>
     </div>  
@@ -305,7 +319,7 @@
         </div>
         <div class="card-ind-info">
             <h3 class="clr-orange">Sebastián Morrone</h3>
-            <p id="equipo-qaqc">Ingeniero QA/QC</p>
+            <p>Ingeniero QA/QC</p>
         </div>
     </div>
 
@@ -419,9 +433,20 @@
         </div>
         <div class="card-ind-info">
             <h3 class="clr-blue">Juan Cruz Gonzalez</h3>
-            <p id="equipo-rrhh">Recursos Humanos</p>
+            <p>Recursos Humanos</p>
         </div>
     </div>
+
+    <div class="card-individual ec">
+        <div class="card-ind-img">
+            <img src=" <?php echo base_url('public/img/equipo-resize/majo.jpeg') ?> " loading="lazy" alt="">
+        </div>
+        <div class="card-ind-info">
+            <h3 class="clr-blue">Maria Jose Moreno</h3>
+            <p>Ejecutiva Comercial</p>
+        </div>
+    </div>
+    
     
     <div class="card-individual bpm">
         <div class="card-ind-img">
@@ -502,6 +527,7 @@
     const mkt = document.querySelector('#mkt')
     const pm = document.querySelector('#pm')
     const rrhh = document.querySelector('#rrhh')
+    const ec = document.querySelector('#ec')
     const bpm = document.querySelector('#bpm')
 
 
@@ -519,6 +545,7 @@
     const cardMkt = document.querySelectorAll('.mkt')
     const cardPm = document.querySelectorAll('.pm')
     const cardRrhh = document.querySelectorAll('.rrhh')
+    const cardEC = document.querySelectorAll('.ec')
     const cardBPM = document.querySelectorAll('.bpm')
 
 
@@ -620,6 +647,13 @@
     function buttonRRHH() {
         addDisplay()
         cardRrhh.forEach(i => {
+            i.classList.remove('d-none')
+        })
+    }
+
+    function buttonEC() {
+        addDisplay()
+        cardEC.forEach(i => {
             i.classList.remove('d-none')
         })
     }
