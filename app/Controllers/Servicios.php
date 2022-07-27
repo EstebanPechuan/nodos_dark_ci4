@@ -27,6 +27,10 @@ class Servicios extends BaseController {
                 'img_url' => 'adobe-xd.svg'
             ],
             [
+                'name' => 'After Effects',
+                'img_url' => 'after.svg'
+            ],
+            [
                 'name' => 'Miro',
                 'img_url' => 'miro.svg'
             ],
